@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/86afc8b4881e2013cded4.jpg" alt="GataBot-MD" width="900"/>
+<img src="https://telegra.ph/file/dabe866aa5c92aa4be02f.jpg.jpg" alt="GataBot-MD" width="900"/>
 </p>
 
 <p align="center">
