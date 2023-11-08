@@ -91,7 +91,7 @@ npm start
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
 > **Note** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
 ----
-### 🚀 USAR KATASHIBOT 24/7 EN TERMUX 
+### 🚀 USAR BROLYBOT 24/7 EN TERMUX 
 > Ejecutar estos comandos dentro de la carpeta Broly-Bot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
