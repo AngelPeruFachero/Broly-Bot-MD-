@@ -82,7 +82,7 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀ ᴏғᴄ_ 卐 〙
 ┃☭│ 
