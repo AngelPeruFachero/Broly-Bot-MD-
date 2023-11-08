@@ -18,13 +18,13 @@
 </p>
 
 <p align="center">   
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KatashiFukushima/KatashiBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/KatashiFukushima/KatashiBot?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/KatashiFukushima/KatashiBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/KatashiFukushima/KatashiBot-MD?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/AngelPeruFachero/Broly-Bot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/AngelPeruFachero/Broly-Bot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/AngelPeruFachero/Broly-Bot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/AngelPeruFachero/Broly-Bot?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/AngelPeruFachero/Broly-Bot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/AngelPeruFachero/Broly-Bot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
 
 ### Cuentas Oficiales:
-> Al acceder a la plataforma, obtendrás acceso a todos los enlaces oficiales de Katashi Fukushima. Además, te mantendremos informado con boletines y mensajes exclusivos sobre las últimas novedades. La página se actualiza constantemente para ofrecerte la información más relevante. ¡No te pierdas ninguna actualización y únete a nuestro canal ahora mismo!
+> Al acceder a la plataforma, obtendrás acceso a todos los enlaces oficiales de AngelPeruFachero. Además, te mantendremos informado con boletines y mensajes exclusivos sobre las últimas novedades. La página se actualiza constantemente para ofrecerte la información más relevante. ¡No te pierdas ninguna actualización y únete a nuestro canal ahora mismo!
 
 <a href="https://instabio.cc/BrolyUwU">
 <img src="https://img.shields.io/badge/Redes_Sociales-000000%7D?style=for-the-badge&logo=biolink&logoColor=white">
@@ -38,26 +38,26 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/AngelPeruFachero/Broly-Bot-MD/master/katashi.sh | bash
 ```
 ```js
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
 // Parámetros editables
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash"
+"wget -O - https://raw.githubusercontent.com/AngelPeruFachero/Broly-Bot-MD/master/katashi.sh | bash"
 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
 "wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/katashi.sh | bash"
 ```
-#### MODIFICAR ARCHIVO [`katashi.sh`](https://github.com/KatashiFukushima/KatashiBot-MD/blob/master/kata.sh)
+#### MODIFICAR ARCHIVO [`katashi.sh`](https://github.com/AngelPeruFachero/Broly-Bot-MD/blob/master/kata.sh)
 ```js
 //LÍNEAS A MODIFICAR
 205 --> "git clone https://github.com/[user]/[repositorio].git"
-//Ejemplo: git clone https://github.com/KatashiFukushima/KatashiBot-MD.git
+//Ejemplo: git clone https://github.com/AngelPeruFachero/Broly-Bot-MD.git
 
 209 --> "cd [repositorio]"
-//Ejemplo: cd KatashiBot-MD
+//Ejemplo: cd Broly-Bot-MD
 
 //Una vez hecho estos cambios ejecute los nuevos comandos en Termux
 ```
@@ -68,13 +68,13 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 termux-setup-storage
 ```
 ```bash
-apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/KatashiFukushima/KatashiBot-MD && cd KatashiBot-MD && yarn install && npm install && npm start
+apt update && apt upgrade && pkg install git nodejs ffmpeg imagemagick yarn && git clone https://github.com/AngelPeruFachero/Broly-Bot-MD && cd Broly-Bot-MD && yarn install && npm install && npm start
 ```
 > **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación 
 ------------------
 ### 📁 (OPCIÓN 3) INSTALACIÓN POR TERMUX - ARCHIVOS
 > **Note** Descargué y Descomprime
-### [`KatashiBot-MD ~ Archivos`](https://github.com/KatashiFukushima/KatashiBot-MD/archive/refs/heads/master.zip)
+### [`Broly-Bot-MD ~ Archivos`](https://github.com/AngelPeruFachero/Broly-Bot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/NO_TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://www.youtube.com/shorts/ZLJYDUM6vSY)
 ```bash
@@ -82,7 +82,7 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-cd storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master 
+cd storage/downloads/Broly-Bot-MD-master/Broly-Bot-MD-master 
 yarn install
 npm install
 npm start
@@ -92,7 +92,7 @@ npm start
 > **Note** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
 ----
 ### 🚀 USAR KATASHIBOT 24/7 EN TERMUX 
-> Ejecutar estos comandos dentro de la carpeta KatashiBot-MD
+> Ejecutar estos comandos dentro de la carpeta Broly-Bot-MD
 ```bash
 termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
 ``` 
@@ -114,11 +114,11 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 🥷🏻 ACTUALIZAR KATASHIBOT
-> **Note** Comandos para actualizar KatashiBot-MD de forma automática
+### 🥷🏻 ACTUALIZAR BROLYBOT
+> **Note** Comandos para actualizar Broly-Bot-MD de forma automática
 ```bash
-grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/update.sh | bash 
+grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/AngelPeruFachero/Broly-Bot-MD/master/update.sh | bash 
 ```
-#### Para que no pierda su progreso en KatashiBot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
+#### Para que no pierda su progreso en Broly-Bot, estos comandos realizarán un respaldo de su `database.json` y se agregará a la versión más reciente.
 > **Warning** Estos comandos solo funcionan para TERMUX, REPLIT, LINUX                           
 ----
