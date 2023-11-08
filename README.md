@@ -6,11 +6,11 @@
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/dabe866aa5c92aa4be02f.jpg" alt="GataBot-MD" width="900"/>
+<img src="https://telegra.ph/file/697daa9b111db9ff4c45e.jpg" alt="GataBot-MD" width="900"/>
 </p>
 
 <p align="center">
-<a href="#"><img title="KatashiBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Broly-Bot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APÓYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>  
 
 <p align="center">
