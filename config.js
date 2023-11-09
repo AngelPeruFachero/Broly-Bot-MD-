@@ -96,26 +96,26 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["51906662557", 'Katashi 💻', 1], 
+["51982110760", 'Angel ofc 💻', 1], 
 ["5217442363122", '𝑖𝑍𝑖 👻', 1],  
 ["584166718372", 'Jesus 💻', 1],
 ["5218771647787", 'IssSG', 1],
-["51948273587", 'Katashi Two', 1]]
+["51982110760", 'Broly Two', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇪🇨
 
-global.packname = "☆𝑲𝒂𝒕𝒂𝒔𝒉𝒊-𝑩𝒐𝒕☆"
-global.author = "✥𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂✥"
+global.packname = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
+global.author = "✥𝑨𝒏𝒈𝒆𝒍𝑷𝒆𝒓𝒖𝑭𝒂𝒄𝒉𝒆𝒓𝒐✥"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.vs = "1.4.9"
 global.vsJB = "2.5 (Beta)"
 
-global.gt = "☆𝑲𝒂𝒕𝒂𝒔𝒉𝒊-𝑩𝒐𝒕☆"
+global.gt = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
 global.yt = "https://youtube.com/@KatashiFukushima"
 global.yt2 = "https://www.youtube.com/shorts/ZLJYDUM6vSY"
 global.ig = "https://www.instagram.com/gkatashi_fukushima"
@@ -136,8 +136,8 @@ global.nnnttt2 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 7 CO
 global.nnnttt3 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 8 COL - GRUPO KATASHIBOT
 global.nnnttt4 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 9 COL - GRUPO KATASHIBOT
 global.nnnttt5 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //A.T.M.M - GRUPO KATASHIBOT
-global.paypal = 'https://paypal.me/KatashiF'
-global.asistencia = 'Wa.me/51948705559' //Dudas? escríbeme...
+global.paypal = 'https://paypal.me/BrolyF'
+global.asistencia = 'Wa.me/51982110760' //Dudas? escríbeme...
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
@@ -171,8 +171,8 @@ global.exito = eg
 
 //⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
 
-global.wm = "☆𝑲𝒂𝒕𝒂𝒔𝒉𝒊-𝑩𝒐𝒕☆ : ✥𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂✥"
-global.igfg = "☆𝕂𝕒𝕥𝕒𝕤𝕙𝕚-𝔹𝕠𝕥☆"
+global.wm = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆ : ✥𝑨𝒏𝒈𝒆𝒍𝑷𝒆𝒓𝒖𝑭𝒂𝒄𝒉𝒆𝒓𝒐✥"
+global.igfg = "☆𝔹𝕣𝕠𝕝𝕪-𝔹𝕠𝕥☆"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
 global.waitt = "*⌛ _Cargando | Charging..._ ▬▬▭▭▭*"
 global.waittt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▭▭*"
@@ -204,7 +204,7 @@ global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
-global.img = 'https://telegra.ph/file/38cd8c6bea67860878901.jpg'
+global.img = 'https://telegra.ph/file/697daa9b111db9ff4c45e.jpg'
 global.img2 = 'https://telegra.ph/file/38cd8c6bea67860878901.jpg'
 
 global.img3 = 'https://telegra.ph/file/b296c5cf0dfbc3e944c97.jpg' //prem
