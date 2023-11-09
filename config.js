@@ -205,7 +205,7 @@ global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
 global.img = 'https://telegra.ph/file/697daa9b111db9ff4c45e.jpg'
-global.img2 = 'https://telegra.ph/file/38cd8c6bea67860878901.jpg'
+global.img2 = 'https://telegra.ph/file/e31e61abfc8d81bcf6c88.jpg'
 
 global.img3 = 'https://telegra.ph/file/b296c5cf0dfbc3e944c97.jpg' //prem
 global.img4 = 'https://telegra.ph/file/b296c5cf0dfbc3e944c97.jpg' //prem
