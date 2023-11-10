@@ -619,7 +619,7 @@ ${readMore}
 ┃☭│ _${usedPrefix}listapremium | listprem_
 ┃☭│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃☭│_${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
+┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
 await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
