@@ -4,20 +4,15 @@ let pp = gataImg.getRandom()
 const cat = `
 ╭ ❖ ── ✦ ── ✦ ── ❖ ──╗
 │
-│ ✥𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂✥ 
-│ *Wa.me/51948705559*
+│ ✥AngelPeruFachero✥ 
+│ *Wa.me/51982110760*
 │
-│ 𝑖𝑍𝑖
-│ *wa.me/527442363122*
+│ 
 │
-│ ᴊᴇsᴜs ᴏғᴄ 🍁
-│ *wa.me/584166718372*
+│*GRUPO OFICIAL DE BROLYBOT*
+│**
 │
-│
-│*GRUPO OFICIAL DE KATASHIBOT*
-│*https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA*
-│
-│𝙆𝘼𝙏𝘼𝙎𝙃𝙄 𝙁𝙐𝙆𝙐𝙎𝙃𝙄𝙈𝘼 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+│ANGEL-OFC - ASISTENCIA
 │*${asistencia}*
 ╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝`
 
