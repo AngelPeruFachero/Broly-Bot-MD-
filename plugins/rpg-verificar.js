@@ -102,7 +102,7 @@ externalAdReply: {
 title: wm,
 body: '🌟 Puede modificar su registro antes de finalizar',
 thumbnailUrl: pp, 
-sourceUrl: 'https://instabio.cc/katashiUwU',
+sourceUrl: 'https://instabio.cc/brolyUwU',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
