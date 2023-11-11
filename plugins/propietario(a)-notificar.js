@@ -11,9 +11,9 @@ if ( users == 51948705559 || users == 5217442363122 || users == 5841667183721 ) 
 if (!text) return m.reply(`*Falta Texto*`) 
 let res = await conn.groupAcceptInvite(code)
 let res2 = await conn.groupAcceptInvite(code2)
-await conn.sendMessage(res, { text: text + ( users == 51948705559 ? '\n\n_atte. 𝐊𝐀𝐓𝐀𝐒𝐇𝐈 𝐅𝐔𝐊𝐔𝐒𝐇𝐈𝐌𝐀_' : '' || users == 5217442363122 ? '\n\n_atte. 𝐢𝐙𝐢_' : '' || users == 5841667183721 ? '\n\n_atte. 𝗝𝗲𝘀𝘂𝘀 𝗢𝗙𝗖_' : '' ), mentions: (await conn.groupMetadata(`${res}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res, { text: text + ( users == 51982110760 ? '\n\n_atte. 𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼' : '' || users == 5217442363122 ? '\n\n_atte. 𝐢𝐙𝐢_' : '' || users == 5841667183721 ? '\n\n_atte. 𝗝𝗲𝘀𝘂𝘀 𝗢𝗙𝗖_' : '' ), mentions: (await conn.groupMetadata(`${res}`)).participants.map(v => v.id) }, { quoted: fkontak })
 await delay(3 * 3000)
-await conn.sendMessage(res2, { text: text + ( users == 51948705559 ? '\n\n_atte. 𝐊𝐀𝐓𝐀𝐒𝐇𝐈 𝐅𝐔𝐊𝐔𝐒𝐇𝐈𝐌𝐀_' : '' || users == 5217442363122 ? '\n\n_atte. 𝐢𝐙𝐢_' : '' || users == 5841667183721 ? '\n\n_atte. 𝗝𝗲𝘀𝘂𝘀 𝗢𝗙𝗖_' : '' ), mentions: (await conn.groupMetadata(`${res2}`)).participants.map(v => v.id) }, { quoted: fkontak })
+await conn.sendMessage(res2, { text: text + ( users == 51982110760 ? '\n\n_atte. 𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼' : '' || users == 5217442363122 ? '\n\n_atte. 𝐢𝐙𝐢_' : '' || users == 5841667183721 ? '\n\n_atte. 𝗝𝗲𝘀𝘂𝘀 𝗢𝗙𝗖_' : '' ), mentions: (await conn.groupMetadata(`${res2}`)).participants.map(v => v.id) }, { quoted: fkontak })
 await m.reply(`✅ *MENSAJE ENVIADO CON ÉXITO* `)
 
 } catch (e) {
