@@ -45,10 +45,10 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // Parámetros editables
 
 // REFERENCIA
-"wget -O - https://raw.githubusercontent.com/AngelPeruFachero/Broly-Bot-MD/master/katashi.sh | bash"
+"wget -O - https://raw.githubusercontent.com/AngelPeruFachero/Broly-Bot-MD/master/Broly.sh | bash"
 
 // PARÁMETROS QUE PUEDE SER MODIFICADOS --> "[...]"
-"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/katashi.sh | bash"
+"wget -O - https://raw.githubusercontent.com/[usuario]/[repositorio]/[rama]/Broly.sh | bash"
 ```
 #### MODIFICAR ARCHIVO [`katashi.sh`](https://github.com/AngelPeruFachero/Broly-Bot-MD/blob/master/kata.sh)
 ```js
@@ -89,7 +89,7 @@ npm start
 ```
 * #### APLICACIÓN RECOMENDADA PARA [`DESCOMPRIMIR`](https://play.google.com/store/apps/details?id=com.rarlab.rar)
 * #### APLICACIÓN RECOMENDADA PARA EDITAR [`NÚMERO DE OWNER`](https://play.google.com/store/apps/details?id=com.rhmsoft.code)
-> **Note** Guardar los archivos en la ubicación: storage/downloads/KatashiBot-MD-master/KatashiBot-MD-master   
+> **Note** Guardar los archivos en la ubicación: storage/downloads/Broly-Bot-MD-master/Broly-Bot-MD-master   
 ----
 ### 🚀 USAR BROLYBOT 24/7 EN TERMUX 
 > Ejecutar estos comandos dentro de la carpeta Broly-Bot-MD
