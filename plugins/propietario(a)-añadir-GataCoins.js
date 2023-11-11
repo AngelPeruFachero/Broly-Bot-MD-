@@ -6,7 +6,7 @@ if (m.isGroup) who = m.mentionedJid[0]
 else who = m.chat
 if (!who) throw `${ag}𝘿𝙀𝘽𝙀 𝘿𝙀 𝙀𝙏𝙄𝙌𝙐𝙀𝙏𝘼𝙍 𝘼𝙇 𝙐𝙎𝙐𝘼𝙍𝙄𝙊 *@tag*\n\n𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙏𝘼𝙂 𝙏𝙃𝙀 𝙐𝙎𝙀𝙍 *@tag*`
 let txt = text.replace('@' + who.split`@`[0], '').trim()
-if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝙆𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝙆𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`
+if (!txt) throw `${ag}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙇𝘼 𝘾𝘼𝙉𝙏𝙄𝘿𝘼𝘿 𝘿𝙀 𝗕𝗥𝗢𝗟𝗬𝗖𝗢𝗜𝗡𝗦\n\n𝙀𝙉𝙏𝙀𝙍 𝙏𝙃𝙀 𝙉𝙐𝙈𝘽𝙀𝙍 𝙊𝙁 𝙆𝘼𝙏𝘼𝘾𝙊𝙄𝙉𝙎`
 if (isNaN(txt)) throw `${mg}𝙎𝙄𝙉 𝙎𝙄𝙈𝘽𝙊𝙇𝙊𝙎, 𝙎𝙊𝙇𝙊 𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙉𝙐𝙈𝙀𝙍𝙊𝙎\n\n𝙉𝙊 𝙎𝙔𝙈𝘽𝙊𝙇𝙎, 𝙅𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝙉𝙐𝙈𝘽𝙀𝙍𝙎`
 let gatacoins = parseInt(txt)
 let money = gatacoins
@@ -23,7 +23,7 @@ m.reply(`╭━━━[ 𝗕𝗥𝗢𝗟𝗬𝘾𝙊𝙄𝙉𝙎 ]━━━⬣\n�
 }*/
 handler.help = ['addgb <@user>']
 handler.tags = ['gatacoins']
-handler.command = ['añadirkatacoins', 'añadirkata', 'añadircoins', 'darkatacoins', 'darkata', 'darcoins'] 
+handler.command = ['añadirBrolycoins', 'añadirBroly', 'añadircoins', 'darkatacoins', 'darkata', 'darcoins'] 
 handler.group = true
 handler.rowner = true
 export default handler
