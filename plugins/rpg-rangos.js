@@ -118,11 +118,11 @@ ${role}
 *SUPER PRO IV* 🎩
 *SUPER PRO V* 🎩
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*PRO EN KATASHIBOT I* 😼
-*PRO EN KATASHIBOT II* 😼
-*PRO EN KATASHIBOT III* 😼
-*PRO EN KATASHIBOT IV* 😼
-*PRO EN KATASHIBOT V* 😼
+*PRO EN BROLYBOT I* 😼
+*PRO EN BROLYBOT II* 😼
+*PRO EN BROLYBOT III* 😼
+*PRO EN BROLYBOT IV* 😼
+*PRO EN BROLYBOT V* 😼
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 *DIAMANTE I* 💎
 *DIAMANTE II* 💎
