@@ -4,7 +4,7 @@ let handler = m => m
 handler.all = async function (m) {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let vn = './media/bot.mp3'
-let bot = `${pickRandom([`*¡Hola! Soy KatashiBot en que te puedo ayudar? *`, `Aqui estoy ☃︎`, `*Hola Aqui estoy yo puedo ayudar? 👻*`])}
+let bot = `${pickRandom([`*¡Hola! Soy Broly-Bot en que te puedo ayudar? *`, `Aqui estoy ☃︎`, `*Hola Aqui estoy yo puedo ayudar? 👻*`])}
 `.trim()
 const estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) },
 message: { 
