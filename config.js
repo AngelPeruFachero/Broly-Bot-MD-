@@ -115,20 +115,13 @@ global.ig = "https://www.instagram.com/gAngelPeruFachero"
 global.md = "https://github.com/AngelPeruFachero/Broly-Bot-MD"
 global.fb = "https://www.facebook.com/AngelPeruFachero"
 
-global.cnl = 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' //CANAL GATABOT
-global.nna = 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' //UPDATE GATABOT
-global.nn2 = 'https://whatsapp.com/channel/0029Va8GeVFAO7REOj3qnW37' //UPDATE 2
+global.cnl = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M' //CANAL BROLYBOT
+global.nna = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M' //UPDATE BROLYBOT
+global.nn2 = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M0029Va8GeVFAO7REOj3qnW37' //UPDATE 2
 global.nna2 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Help
 global.nn = 'https://https://chat.whatsapp.com/EcMl1FK9sgx8tnhE91cTmF' //Grupo 1 - Broly-Bot-MD (OFC)
-global.nnn = 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' //Grupo 2 - PapuCity 2.5
-global.nnnt = 'https://chat.whatsapp.com/EBQOkLPgftc8mPR4KTml8S' //Grupo 3 - 
-global.nnntt = 'https://chat.whatsapp.com/JrPYbBETich6HFYvLYq9Pf' //Grupo 4 - El Hentai es Literatura
-global.nnnttt = 'https://chat.whatsapp.com/LgxLCZwejjSFaeREilUo7r' //Grupo 5 - Anexados del infierno
-global.nnnttt1 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA'; //Grupo 6 COL - GRUPO BROLYBOT
-global.nnnttt2 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 7 COL - GRUPO BROLYBOT
-global.nnnttt3 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 8 COL - GRUPO BROLYBOT
-global.nnnttt4 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Grupo 9 COL - GRUPO BROLYBOT
-global.nnnttt5 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //A.T.M.M - GRUPO KATASHIBOT
+global.nnn = 'https://chat.whatsapp.com/J2IRY8iLvtL2Us6pVGGcRH' //Grupo 2 - Broly-Bot-MD (OFC) ||
+global.nnnt = 
 global.paypal = 'https://paypal.me/BrolyF'
 global.asistencia = 'Wa.me/51982110760' //Dudas? escríbeme...
 
