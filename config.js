@@ -90,7 +90,7 @@ global.axios = axios
 global.moment = moment
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
-
+global.nnnttt = 'TEXTO'
 global.official = [ // Agregate si eres Owner
 ["51982110760", 'Angel ofc 💻', 1], 
 ["51982110760", 'Broly Two', 1]]
