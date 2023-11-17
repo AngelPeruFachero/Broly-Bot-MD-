@@ -221,7 +221,7 @@ global.img18 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
 global.logogit = 'https://telegra.ph/file/75bbb5686e0dff952e79c.jpg'
 
 global.welgata = [ig, yt2, yt2, ig, md, ig, yt, paypal, yt2, yt2, ig, fb]
-global.redesMenu = [cnl, nna, nn, nnn, nnnt, nnntt, nnnttt, md, ig, paypal, yt, asistencia, fb]
+global.redesMenu = [cnl, nna, nn, md, ig, paypal, yt, asistencia, fb]
 global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17, img18]
 global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11, imagen12, imagen13]
