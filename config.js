@@ -11,7 +11,7 @@ import { watchFile, unwatchFile } from "fs"
  //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰   
   
  global.owner = [ 
- ["5214271951557", '☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆', true], 
+ ["59176151236", '☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆', true], 
  ["51982110760", '𝙊𝙬𝙣𝙚𝙧', true],  
  //["5217441745021"],  
  ["5217442363122", true],  
