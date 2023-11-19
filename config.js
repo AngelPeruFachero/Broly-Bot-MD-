@@ -119,9 +119,9 @@ global.ig = "https://www.instagram.com/gAngelPeruFachero"
 global.md = "https://github.com/AngelPeruFachero/Broly-Bot-MD"
 global.fb = "https://www.facebook.com/AngelPeruFachero"
 
-global.cnl = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M' //CANAL BROLYBOT
-global.nna = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M' //UPDATE BROLYBOT
-global.nn2 = 'https://whatsapp.com/channel/0029Va9fbuk5Ui2dvbcvig1M0029Va8GeVFAO7REOj3qnW37' //UPDATE 2
+global.cnl = 'https://whatsapp.com/channel/0029Va98AwkISTkJMjfZtZ1T' //CANAL BROLYBOT
+global.nna = 'https://whatsapp.com/channel/0029Va98AwkISTkJMjfZtZ1T' //UPDATE BROLYBOT
+global.nn2 = 'https://whatsapp.com/channel/https://whatsapp.com/channel/0029Va98AwkISTkJMjfZtZ1T' //UPDATE 2
 global.nna2 = 'https://chat.whatsapp.com/GOMZkMih9onHg80KsQfIFA' //Help
 global.nn = 'https://https://chat.whatsapp.com/EcMl1FK9sgx8tnhE91cTmF' //Grupo 1 - Broly-Bot-MD (OFC)
 global.nnn = 'https://chat.whatsapp.com/F6JMVYXl8sW5vN37MZQquV' //Grupo 2 - Broly-Bot-MD (OFC) ||
