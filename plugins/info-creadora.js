@@ -10,7 +10,7 @@ const cat = `
 │    sans
 │   *wa.me/584129799955*
 │*GRUPO OFICIAL DE BROLYBOT*
-│**
+│*https://chat.whatsapp.com/F6JMVYXl8sW5vN37MZQquV*
 │
 │ANGEL-OFC - ASISTENCIA
 │*${asistencia}*
