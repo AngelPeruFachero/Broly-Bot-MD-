@@ -7,8 +7,8 @@ const cat = `
 │ ✥AngelPeruFachero✥ 
 │ *Wa.me/51982110760*
 │
-│ 
-│
+│    sans
+│   *wa.me/584129799955*
 │*GRUPO OFICIAL DE BROLYBOT*
 │**
 │
