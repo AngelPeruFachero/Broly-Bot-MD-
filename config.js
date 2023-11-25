@@ -194,14 +194,14 @@ global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")
 
 //━━━━━━━━━━━━━━ img ━━━━━━━━━
 
-global.img = 'https://telegra.ph/file/697daa9b111db9ff4c45e.jpg'
-global.img2 = 'https://telegra.ph/file/e31e61abfc8d81bcf6c88.jpg'
+global.img = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
+global.img2 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
 
-global.img3 = 'https://telegra.ph/file/b296c5cf0dfbc3e944c97.jpg' //prem
-global.img4 = 'https://telegra.ph/file/b296c5cf0dfbc3e944c97.jpg' //prem
+global.img3 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg' //prem
+global.img4 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg' //prem
 
-global.img5 = 'https://telegra.ph/file/041c8bb3213da3a0ef410.jpg'
-global.img6 = 'https://telegra.ph/file/041c8bb3213da3a0ef410.jpg'
+global.img5 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
+global.img6 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
 global.img7 = 'https://telegra.ph/file/424dd6d15bd2aef9aaf1d.jpg'
 global.img8 = 'https://telegra.ph/file/424dd6d15bd2aef9aaf1d.jpg'
 global.img9 = 'https://telegra.ph/file/9db73a2463e7889c68c2f.jpg'
