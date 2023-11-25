@@ -209,14 +209,14 @@ global.img9 = 'httpg'
 global.img10 = 'https://telegra.ph/file/0df6a83da84452a5e6570.jpg'
 global.img11 = 'https://telegra.ph/file/0df6a83da84452a5e6570.jpg'
 global.img12 = 'https://telegra.ph/file/0df6a83da84452a5e6570.jpg'
-global.img13 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
-global.img14 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
-global.img15 = 'https://telegra.ph/file/c314943b11806b25803f3.jpg'
+global.img13 = 'https://telegra.ph/file/49a9163ef57ae307d6392.jpg'
+global.img14 = 'https://telegra.ph/file/49a9163ef57ae307d6392.jpg'
+global.img15 = 'https://telegra.ph/file/49a9163ef57ae307d6392.jpg'
 
 global.img16 = 'https://telegra.ph/file/c314943b11806b25803f3.jpg' //+18
 
-global.img17 = 'https://telegra.ph/file/38cd8c6bea67860878901.jpg'
-global.img18 = 'https://telegra.ph/file/1e7e54a16dd6fd59c8d22.jpg'
+global.img17 = 'https://telegra.ph/file/49a9163ef57ae307d6392.jpg'
+global.img18 = 'https://telegra.ph/file/49a9163ef57ae307d6392.jpg'
 
 global.logogit = 'https://telegra.ph/file/75bbb5686e0dff952e79c.jpg'
 
