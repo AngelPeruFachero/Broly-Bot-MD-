@@ -562,7 +562,7 @@ text: `🍃 \`\`\`VERIFICACIÓN EXITOSA\`\`\` 🍃
 🛅 *CÓDIGO DE REGISTRO*
 ❱❱ ${sn}\n
 ✅ *INSIGNIA DE VERIFICACIÓN*
-❱❱   *${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲᴷᴮ' : ''}*\n
+❱❱   *${user.registered === true ? 'ͧͧͧͦꙶͣͤ✓ᚲ𝙱𝙱' : ''}*\n
 ✨ *NOMBRE* 
 ❱❱ ${user.name}\n
 👀 *DESCRIPCIÓN*
