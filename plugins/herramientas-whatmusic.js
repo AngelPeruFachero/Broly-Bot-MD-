@@ -20,7 +20,7 @@ const handler = async (m) => {
     const {title, artists, album, genres, release_date} = res.metadata.music[0];
     const txt = `
 𝚁𝙴𝚂𝚄𝙻𝚃𝙰𝙳𝙾𝚂 𝙳𝙴 𝙻𝙰 𝙱𝚄𝚂𝚀𝚄𝙴𝙳𝙰
-ɢʀᴀᴄɪᴀꜱ ᴀ ᴋᴀᴛᴀꜱʜɪ ꜰᴜᴋᴜꜱʜɪᴍᴀ
+ɢʀᴀᴄɪᴀꜱ 𝚊 𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘
 
 • 📌 𝚃𝙸𝚃𝚄𝙻𝙾: ${title}
 • 👨‍🎤 𝙰𝚁𝚃𝙸𝚂𝚃𝙰: ${artists !== undefined ? artists.map((v) => v.name).join(', ') : 'No encontrado'}
@@ -30,7 +30,7 @@ const handler = async (m) => {
 `.trim();
     fs.unlinkSync(`./tmp/${m.sender}.${ext}`);
     m.reply(txt);
-  } else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾*';
+  } else throw '*[❗𝐈𝐍𝐅𝐎❗] 𝚁𝙴𝚂𝙿𝙾𝙽𝙳𝙰 𝙰 𝚄𝙽 𝙰𝚄𝙳𝙸𝙾 𝙾 𝚅𝙸𝙳𝙴𝙾*';
 };
 handler.command = /^quemusica|quemusicaes|whatmusic$/i;
 export default handler;
