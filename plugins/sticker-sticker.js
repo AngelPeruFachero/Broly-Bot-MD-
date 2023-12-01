@@ -22,7 +22,12 @@ if (new Date - user.lastmiming < 10000) return await conn.reply(m.chat, `*ESPERA
       } catch (e) {
         console.error(e)
       } finally {
-      //await conn.reply(m.chat, `${eg}⏳ *CREANDO STICKER, UN MOMENTO...* 🐈`, m)
+      //await conn.reply(m.chat, `${eg}⏳ *CREANDO STICKER, UN MOMENTO...╰⊱💚⊱ *ÉXITO* ⊱💚⊱╮
+
+𝙎𝙀 𝙀𝙎𝙏𝘼 𝗖𝗥𝗘𝗔𝗡𝗗𝗢 𝙎𝙐 𝗘𝗦𝗧𝗜𝗖𝗞𝗘𝗥, 𝙀𝙎𝙋𝙀𝙍𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍.
+
+
+𝗬𝗢𝗨 𝗔𝗥𝗘 𝗔 𝗖𝗥𝗘𝗔𝗧𝗜𝗩𝗘 𝗦𝗘𝗘𝗞𝗘𝗥, 𝗦𝗣𝗔𝗥𝗘 𝗔 𝗠𝗢𝗠𝗘𝗡𝗧 𝗙𝗢𝗥 𝗙𝗔𝗩𝗢𝗥.* `, m)
         if (!stiker) {
           if (/webp/g.test(mime)) out = await webp2png(img)
           else if (/image/g.test(mime)) out = await uploadImage(img)
