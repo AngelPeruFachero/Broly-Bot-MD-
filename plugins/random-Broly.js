@@ -3,9 +3,9 @@ let yh = global.broly
 let url = yh[Math.floor(Math.random() * yh.length)]
 conn.sendMessage(m.chat, { image: { url: url }, caption: "*_AY ESTA LA IMAGEN DE BROLY_*" }, { quoted: m });
 }
-handler.command = /^(broly)$/i
+handler.command = /^(imgbroly)$/i
 handler.tags = ['anime']
-handler.help = ['imgbroly']
+handler.help = ['broly']
 export default handler
 
 global.broly = [
