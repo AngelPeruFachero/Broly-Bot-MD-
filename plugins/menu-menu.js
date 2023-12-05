@@ -222,7 +222,7 @@ ${readMore}
 ╭═══〘卐 _IA 𝖡𝖱𝖮𝖫𝖸_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _puedes buscar lo que deseas usando:_
-┃☭│ _${usedPrefix}ytmp3 | iacici *texto*_ 
+┃☭│ _${usedPrefix}iacici *texto*_ 
 ┃☭│ _${usedPrefix}simi | ia *texto*_
 ┃☭│ _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃☭│ _${usedPrefix}simsimi | bixby *texto*_
@@ -264,7 +264,7 @@ ${readMore}
 ╭════〘卐 _DESCARGAS_ 卐〙════⊷❍
 │   │
 ┃☭│ _${usedPrefix}imagen | image *texto*_
-┃☭│ _${usedPrefix}ytmp3 | dgdrive *link*_
+┃☭│ _${usedPrefix}dgdrive *link*_
 ┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃☭│ _${usedPrefix}wallpaper|wp *texto*_
 ┃☭│ _${usedPrefix}play | play2 *texto o link*_
@@ -406,6 +406,7 @@ ${readMore}
 │
 ┃☭│ _${usedPrefix}chica_ 
 ┃☭│ _${usedPrefix}chico_
+┃☭│ _${usedPrefix}imgbroly_ 
 ┃☭│ _${usedPrefix}cristianoronaldo_
 ┃☭│ _${usedPrefix}messi_
 ┃☭│ _${usedPrefix}meme_
