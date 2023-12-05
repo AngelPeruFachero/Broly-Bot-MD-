@@ -9,31 +9,31 @@ let gata = Math.floor(Math.random() * 4000)
 let expp = Math.floor(Math.random() * 5000)
 
   global.db.data.users[m.sender].limit += dia
-  global.db.data.users[m.sender].money += gata
+  global.db.data.users[m.sender].money += broly
   global.db.data.users[m.sender].joincount += tok
   global.db.data.users[m.sender].exp += expp
-  
+
 let texto = `
 ╭─ ❖ ── ✦ ── ✦ ── ❖ ──╗
 ┃⚗️ *${dia} Diamantes* 💎
 ┃⚗️ *${tok} Tokens* 🍁
-┃⚗️ *${broly} BrolyCoins* ✩
+┃⚗️ *${gata} BrplyCoins* ✩
 ┃⚗️ *${expp} Exp* ⚡
 ╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝`
 
 const fkontak = {
-	"key": {
+        "key": {
     "participants":"0@s.whatsapp.net",
-		"remoteJid": "status@broadcast",
-		"fromMe": false,
-		"id": "Halo"
-	},
-	"message": {
-		"contactMessage": {
-			"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
-		}
-	},
-	"participant": "0@s.whatsapp.net"
+                "remoteJid": "status@broadcast",
+                "fromMe": false,
+                "id": "Halo"
+        },
+        "message": {
+                "contactMessage": {
+                        "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+                }
+        },
+        "participant": "0@s.whatsapp.net"
 }
 
 await conn.sendFile(m.chat, img, 'gata.jpg', texto, fkontak)
