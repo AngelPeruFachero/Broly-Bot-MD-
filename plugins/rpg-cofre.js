@@ -9,7 +9,7 @@ let gata = Math.floor(Math.random() * 4000)
 let expp = Math.floor(Math.random() * 5000)
 
   global.db.data.users[m.sender].limit += dia
-  global.db.data.users[m.sender].money += broly
+  global.db.data.users[m.sender].money += gata
   global.db.data.users[m.sender].joincount += tok
   global.db.data.users[m.sender].exp += expp
 
@@ -17,7 +17,7 @@ let texto = `
 ╭─ ❖ ── ✦ ── ✦ ── ❖ ──╗
 ┃⚗️ *${dia} Diamantes* 💎
 ┃⚗️ *${tok} Tokens* 🍁
-┃⚗️ *${gata} BrplyCoins* ✩
+┃⚗️ *${gata} BrolyCoins* ✩
 ┃⚗️ *${expp} Exp* ⚡
 ╰─ ❖ ── ✦ ── ✦ ── ❖ ──╝`
 
