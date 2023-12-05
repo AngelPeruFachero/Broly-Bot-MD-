@@ -263,6 +263,7 @@ ${readMore}
 ╭════〘卐 _DESCARGAS_ 卐〙════⊷❍
 │   │
 ┃☭│ _${usedPrefix}imagen | image *texto*_
+┃☭│ _${usedPrefix}ytmp3 | dgdrive *link*_
 ┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃☭│ _${usedPrefix}wallpaper|wp *texto*_
 ┃☭│ _${usedPrefix}play | play2 *texto o link*_
@@ -294,7 +295,7 @@ ${readMore}
 
 ╭═══〘卐 _Chat Anonimo_ 卐〙═══⊷❍
 ┃ _podras enviar mensajes a otra
-┃ _persona usando a Katashi bot_
+┃ _persona usando a Broly bot_
 ┃
 ┃☭│ _${usedPrefix}chatanonimo | anonimochat_
 ┃☭│ _${usedPrefix}anonimoch_
