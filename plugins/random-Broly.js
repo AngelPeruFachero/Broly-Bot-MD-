@@ -1,9 +1,9 @@
 let handler = async(m, { conn, text, command }) => {
 let yh = global.broly
 let url = yh[Math.floor(Math.random() * yh.length)]
-conn.sendMessage(m.chat, { image: { url: url }, caption: "*_AY ESTA LA IMAGEN DE BROLY_*" }, { quoted: m });
+conn.sendMessage(m.chat, { image: { url: url }, caption: "*_AQUI ESTÁ LA IMAGEN_*" }, { quoted: m });
 }
-handler.command = /^(imgbroly)$/i
+handler.command = /^(ibroly)$/i
 handler.tags = ['anime']
 handler.help = ['broly']
 export default handler
