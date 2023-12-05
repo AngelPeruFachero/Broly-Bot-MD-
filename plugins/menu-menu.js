@@ -222,6 +222,7 @@ ${readMore}
 ╭═══〘卐 _IA 𝖡𝖱𝖮𝖫𝖸_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _puedes buscar lo que deseas usando:_
+┃☭│ _${usedPrefix}ytmp3 | iacici *texto*_ 
 ┃☭│ _${usedPrefix}simi | ia *texto*_
 ┃☭│ _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃☭│ _${usedPrefix}simsimi | bixby *texto*_
