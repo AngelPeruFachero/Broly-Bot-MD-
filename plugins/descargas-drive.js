@@ -12,7 +12,7 @@ conn.sendFile(m.chat, res.downloadUrl, res.fileName, '', m, null, { mimetype: re
 }catch(e){
 m.reply('*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*\n\n*- 𝙲𝙾𝚁𝚁𝙾𝙱𝙾𝚁𝙴 𝚀𝚄𝙴 𝙴𝙻 𝙴𝙽𝙻𝙰𝙲𝙴 𝚂𝙴𝙰 𝚂𝙸𝙼𝙸𝙻𝙰𝚁 𝙰:*\n*◉ https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view*\n\n\n[❗𝐈𝐍𝐅𝐎❗] ERROR TRY AGAIN*\n\n*HELP THAT THE LINK IS SIMILAR TO* ◉ https://drive.google.com/file/d/1dmHlx1WTbH5yZoNa_ln325q5dxLn1QHU/view')
 console.log(e)}}
-handler.command = /^(gdrive)$/i
+handler.command = /^(dgdrive)$/i
 handler.register = true
 handler.limit = 10
 export default handler
