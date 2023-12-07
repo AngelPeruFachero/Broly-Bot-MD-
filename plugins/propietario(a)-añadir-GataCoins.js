@@ -23,7 +23,7 @@ m.reply(`╭━━━[ 𝗕𝗥𝗢𝗟𝗬𝘾𝙊𝙄𝙉𝙎 ]━━━⬣\n�
 }*/
 handler.help = ['addgb <@user>']
 handler.tags = ['brolycoins']
-handler.command = ['añadirBrolycoins', 'añadirBroly', 'añadircoins', 'darbrolycoins', 'darbroly', 'darcoins'] 
+handler.command = ['añadirbrolycoins', 'añadirbroly', 'añadircoins', 'darbrolycoins', 'darbroly', 'darcoins'] 
 handler.group = true
 handler.rowner = true
 export default handler
