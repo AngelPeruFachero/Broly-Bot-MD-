@@ -23,7 +23,7 @@ m.reply(`╭━━━[ 𝗕𝗥𝗢𝗟𝗬𝗖𝗢𝗜𝗡𝗦 🥷🏻 ]━━
 }*/
 handler.help = ['addgb <@user>']
 handler.tags = ['gatacoins']
-handler.command = ['eliminarkatacoins', 'eliminarkata', 'eliminarcoins', 'quitarbrolycoins', 'quitarbroly', 'quitarcoins', 'delbrolycoins', 'delbroly', 'delcoins'] 
+handler.command = ['eliminarbrolycoins', 'eliminarbroly', 'eliminarcoins', 'quitarbrolycoins', 'quitarbroly', 'quitarcoins', 'delbrolycoins', 'delbroly', 'delcoins'] 
 handler.group = true
 handler.rowner = true
 export default handler 
