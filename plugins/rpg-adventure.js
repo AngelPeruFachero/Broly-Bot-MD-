@@ -59,7 +59,7 @@ ${cmenua}`
         user[rewardItem] += total * 1
         if (total) text += `\n» ${global.rpg.emoticon(rewardItem)} ${total}`
     }
-    conn.sendFile(m.chat, pp, 'https://telegra.ph/file/1df9784d8a7f4b4be48a4.jpg', text.trim(), fkontak)
+    conn.sendFile(m.chat, pp, 'Broly.jpg', text.trim(), fkontak)
    // await conn.reply(m.chat, `${htki} 𝘼𝙑𝙀𝙉𝙏𝙐𝙍𝘼 ${htka}`, fkontak, imgr, m)
     /*conn.sendButton(m.chat, 
      `${htki} 𝘼𝙑𝙀𝙉𝙏𝙐𝙍𝘼 ${htka}`, 
