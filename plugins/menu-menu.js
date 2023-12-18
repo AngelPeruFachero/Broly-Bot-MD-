@@ -633,8 +633,8 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
-	
+//await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
+await conn.sendMessage(m.chat, {image: imagen1, caption: menu, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'}, {quoted: fkontak})	
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
