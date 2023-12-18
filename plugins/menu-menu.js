@@ -88,7 +88,7 @@ let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 *╭┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╮*
 *┃🎅│⠸⋑* ${packname}*
 *┃🎅│❄️ 🝆 ${vs} BB 🝆 ❄️*
-*╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯*${conn.user.jid == let menu = 
+*╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯
 
 \`\`\`${horarioFecha}\`\`\`
 ⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
@@ -637,7 +637,7 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
+await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak)
 	
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
