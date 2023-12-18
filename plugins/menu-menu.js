@@ -84,7 +84,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭ ╭──────────────
-@${who.replace(/@.+/, '')}
+@${m.sender.split`@`[0]}
 *╭┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╮*
 *┃🎅│⠸⋑* ${packname}*
 *┃🎅│❄️ 🝆 ${vs} BB 🝆 ❄️*
