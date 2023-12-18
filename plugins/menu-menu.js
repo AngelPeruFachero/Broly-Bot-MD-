@@ -91,11 +91,7 @@ let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 *╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯
 
 \`\`\`${horarioFecha}\`\`\`
-⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
-⎔ *Registrados »* ${rtotalreg}/${totalreg}    
-⎔ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
-⎔ *${lenguajeGB['smsVersion']()}* ➺ _${vs}_
-⎔ *${lenguajeGB['smsMode']()} ➺* _$
+
 ┃🎅│ 〘 卐 _ᴏᴡɴᴇʀ ᴏғᴄ_ 卐 〙
 ┃🎅│ 
 ┃🎅│ _𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘 🥷🏻_
