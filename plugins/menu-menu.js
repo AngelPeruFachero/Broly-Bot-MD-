@@ -84,7 +84,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭ ╭──────────────
-
+@${who.replace(/@.+/, '')}
 *╭┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╮*
 *┃🎅│⠸⋑* ${packname}*
 *┃🎅│❄️ 🝆 ${vs} BB 🝆 ❄️*
@@ -633,7 +633,7 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak)
+await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
 	
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
