@@ -633,8 +633,8 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-//await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
-await conn.sendMessage(m.chat, {text: menu.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen2, "mediaUrl": global.nn, "sourceUrl": global.nn}}}, {quoted: fkontak});
+await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
+//await conn.sendMessage(m.chat, {text: menu.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen2, "mediaUrl": global.nn, "sourceUrl": global.nn}}}, {quoted: fkontak});
    
  //await conn.sendMessage(m.chat, {image: imagen1, caption: menu, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'}, {quoted: fkontak})	
 } catch (e) {
