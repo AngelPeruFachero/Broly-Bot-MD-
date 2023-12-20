@@ -84,14 +84,11 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭ ╭──────────────
-@${m.sender.split`@`[0]}
+
 *╭┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╮*
 *┃🎅│⠸⋑* ${packname}*
 *┃🎅│❄️ 🝆 ${vs} BB 🝆 ❄️*
-*╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯
-
-\`\`\`${horarioFecha}\`\`\`
-
+*╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯*${conn.user.jid == global.conn.user.jid ? '' : `🌨️🐈🌨️ *>>* 𝗚𝗕 - 𝗦𝗨𝗕 𝗕𝗢𝗧 ⇢ *@${global.conn.user.jid.split`@`[0]}*`}
 ┃🎅│ 〘 卐 _ᴏᴡɴᴇʀ ᴏғᴄ_ 卐 〙
 ┃🎅│ 
 ┃🎅│ _𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘 🥷🏻_
@@ -633,10 +630,8 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-await conn.sendFile(m.chat, imagen1, 'broly.jpeg', menu, fkontak, { mentions: [who] })
-//await conn.sendMessage(m.chat, {text: menu.trim(), mentions: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), contextInfo: { mentionedJid: [...text.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'), "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "renderLargerThumbnail": true, "title": wm, "containsAutoReply": true, "mediaType": 1, "thumbnail": imagen2, "mediaUrl": global.nn, "sourceUrl": global.nn}}}, {quoted: fkontak});
-   
- //await conn.sendMessage(m.chat, {image: imagen1, caption: menu, mentions: [...txt1.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net'}, {quoted: fkontak})	
+await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
+	
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
@@ -652,4 +647,4 @@ function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}  
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
