@@ -82,21 +82,21 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
+┃☭│ _𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘_
 ┃☭│ 
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│ 𝙱𝚁𝙾𝙻𝚈 𝙱𝙾𝚃 × 𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
+╭════〘卐 _INFO BROLY BOT_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
@@ -123,14 +123,14 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _KataCoins ➟_ ${money} ⫹⫺
+┃☭│ _BrolyCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
 ┃☭╰───────────────
 ╰═════════════════⊷
 
 ${readMore}
 
-╭═══〘卐 _I N F O - K A T A S H I_ 卐〙═══⊷❍
+╭═══〘卐 _I N F O - B R O L Y_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _${usedPrefix}cuentaskatashi | cuentaskb_
 ┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
@@ -146,7 +146,7 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭═══〘卐 _SUB BOT KATASHI_ 卐〙═══⊷❍
+╭═══〘卐 _SUB BOT BROLY_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _${usedPrefix}serbot | jadibot_
 ┃☭│ _${usedPrefix}bots | listjadibots_
@@ -217,7 +217,7 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _IA KATASHI_ 卐〙═══⊷❍
+╭═══〘卐 _IA BROLY_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _puedes buscar lo que deseas usando:_
 ┃☭│ _${usedPrefix}simi | ia *texto*_
@@ -292,7 +292,7 @@ ${readMore}
 
 ╭═══〘卐 _Chat Anonimo_ 卐〙═══⊷❍
 ┃ _podras enviar mensajes a otra
-┃ _persona usando a Katashi bot_
+┃ _persona usando a broly bot_
 ┃
 ┃☭│ _${usedPrefix}chatanonimo | anonimochat_
 ┃☭│ _${usedPrefix}anonimoch_
@@ -622,12 +622,12 @@ ${readMore}
 ┃☭│ _${usedPrefix}listapremium | listprem_
 ┃☭│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃☭│_${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
+┃☭│ _${usedPrefix}añadirbrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-const vi = ['https://telegra.ph/file/7f0318607ccfdb6bcb66d.mp4',
-'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4',
-'https://telegra.ph/file/117391db9016a51f73618.mp4']
+const vi = ['https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
+'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
+'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg']
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
 
 } catch (e) {
