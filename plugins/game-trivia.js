@@ -1,4 +1,4 @@
-// Créditos a AngelPeruFachero
+// Créditos a angelperufachero
 
 import fs from 'fs'
 
