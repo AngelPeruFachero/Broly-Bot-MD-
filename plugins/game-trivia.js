@@ -2,7 +2,7 @@
 
 import fs from 'fs'
 
-let timeout = 10000
+let timeout = 60000
 let poin = 500
 
 let handler = async (m, { conn, usedPrefix }) => {
@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *• Bono:* +${poin} Exp
 
 💫 Responde a este mensaje con la letra de la opción correcta ✅
-¡Tienes 10 segundos!
+¡Tienes 60 segundos!
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
