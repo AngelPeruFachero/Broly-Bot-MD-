@@ -627,9 +627,9 @@ ${readMore}
 ┃☭│ _${usedPrefix}añadirbrolycoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-const vi = ['https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
-'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
-'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg']
+const vi = ['https://telegra.ph/file/3e8b0d1464f9ec6311e3d.mp4',
+'https://telegra.ph/file/3e8b0d1464f9ec6311e3d.mp4',
+'https://telegra.ph/file/3e8b0d1464f9ec6311e3d.mp4']
 await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
 
 } catch (e) {
