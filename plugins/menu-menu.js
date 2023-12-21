@@ -1,4 +1,4 @@
-import fs from 'fs'
+import fs from 'fs'  
 import moment from 'moment-timezone'
 import fetch from 'node-fetch'
 import { xpRange } from '../lib/levelling.js'
@@ -65,7 +65,7 @@ text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let mentionedJid = [who]
 let username = conn.getName(who)
-let pp = gataVidMenu.getRandom()
+//let pp = gataVidMenu.getRandom()
 let pareja = global.db.data.users[m.sender].pasangan 
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 //let fsizedoc = '1'.repeat(10)
@@ -82,27 +82,21 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
-┃☭ ╭──────────────
-
-*╭┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╮*
-*┃🎅│⠸⋑* ${packname}*
-*┃🎅│❄️ 🝆 ${vs} BB 🝆 ❄️*
-*╰┈🎄┈🎄┈🎄┈🎄┈🎄┈🎄┈╯*${conn.user.jid == global.conn.user.jid ? '' : `🌨️🐈🌨️ *>>* 𝗚𝗕 - 𝗦𝗨𝗕 𝗕𝗢𝗧 ⇢ *@${global.conn.user.jid.split`@`[0]}*`}
-┃🎅│ 〘 卐 _ᴏᴡɴᴇʀ ᴏғᴄ_ 卐 〙
-┃🎅│ 
-┃🎅│ _𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘 🥷🏻_
-┃🎅│ 
-┃🎅│ Creador: wa.me/51982110760
-┃🎅│ 
-┃🎅│    ║▌│█║▌│█║▌│█│║▌║
-┃🎅│    ║▌│█║▌│█║▌│█│║▌║
-┃🎅│𝙱𝚛𝚘𝚕𝚢 ʙᴏᴛ x 𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘
-┃🎅│ 
-┃🎅╰───────────────
+let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+┃☭╭──────────────
+┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
+┃☭│ 
+┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
+┃☭│ 
+┃☭│
+┃☭│    ║▌│█║▌│█║▌│█│║▌║
+┃☭│    ║▌│█║▌│█║▌│█│║▌║
+┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│ 
+┃☭╰───────────────
 ╰═════════════════⊷
 
-╭════〘卐 _INFO BROLY BOT_ 卐〙════⊷❍
+╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
@@ -120,7 +114,7 @@ let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭│ _${lenguajeGB['smsBotonM7']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM7']().slice(1).toLowerCase()} »_ ${user.premiumTime > 0 ? '✅' : '❌ _' + usedPrefix + 'pase premium_'}
 ┃☭│ _${lenguajeGB['smsBotonM5']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM5']().slice(1).toLowerCase()} »_ ${role}
 ┃☭│ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
-┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}_*`}
+┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
 ┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
@@ -129,16 +123,16 @@ let menu = `╭═══〘卐 _Broly bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
-┃☭│ _𝙱𝚛𝚘𝚕𝚢Coins ➟_ ${money} ⫹⫺
+┃☭│ _KataCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
 ┃☭╰───────────────
 ╰═════════════════⊷
 
 ${readMore}
 
-╭═══〘卐 _I N F O - ＢＲＯＬＹ_ 卐〙═══⊷❍
+╭═══〘卐 _I N F O - K A T A S H I_ 卐〙═══⊷❍
 ┃☭╭──────────────
-┃☭│ _${usedPrefix}cuentasBroly | cuentaskb_
+┃☭│ _${usedPrefix}cuentaskatashi | cuentaskb_
 ┃☭│ _${usedPrefix}gruposkb | grupos | groupkb_
 ┃☭│ _${usedPrefix}donar | donate_
 ┃☭│ _${usedPrefix}listagrupos | grouplist_
@@ -152,7 +146,7 @@ ${readMore}
 ┃☭╰───────────────
 ╰═════════════════⊷
 
-╭═══〘卐 _SUB BOT 𝖡𝖱𝖮𝖫𝖸_ 卐〙═══⊷❍
+╭═══〘卐 _SUB BOT KATASHI_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _${usedPrefix}serbot | jadibot_
 ┃☭│ _${usedPrefix}bots | listjadibots_
@@ -179,6 +173,10 @@ ${readMore}
 
 ╭════〘卐 _ENTRETENIMIENTO_ 卐〙════⊷❍
 │
+│☭│ _${usedPrefix}trivia 
+│☭│ _${usedPrefix}acertijo_
+│☭│ _${usedPrefix}palabra | ordenar_
+│☭│ _${usedPrefix}pelicula | adv_
 ┃☭│ _${usedPrefix}mates | matemáticas | math_
 ┃☭│ _${usedPrefix}ppt *piedra : papel : tijera*_
 ┃☭│ _${usedPrefix}lanzar *cara* | *cruz*_
@@ -206,7 +204,7 @@ ${readMore}
 ┃☭│ _${usedPrefix}puta *nombre : @tag*_
 ┃☭│ _${usedPrefix}rata *nombre : @tag*_
 ┃☭│ _${usedPrefix}love *nombre : @tag*_
-┃☭│ _${usedPrefix}ship nombre1 nombre2*_
+┃☭│ _${usedPrefix}ship | shipear *nombre1 nombre2*_
 ┃☭│ _${usedPrefix}doxear *nombre : @tag*_
 ┃☭│ _${usedPrefix}doxxeame_
 ┃☭│ _${usedPrefix}apostar | slot *cantidad*_
@@ -219,10 +217,9 @@ ${readMore}
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍
 
-╭═══〘卐 _IA 𝖡𝖱𝖮𝖫𝖸_ 卐〙═══⊷❍
+╭═══〘卐 _IA KATASHI_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ _puedes buscar lo que deseas usando:_
-┃☭│ _${usedPrefix}iacici *texto*_ 
 ┃☭│ _${usedPrefix}simi | ia *texto*_
 ┃☭│ _${usedPrefix}alexa | siri | cortana *texto*_ 
 ┃☭│ _${usedPrefix}simsimi | bixby *texto*_
@@ -230,7 +227,7 @@ ${readMore}
 ╰═════════════════⊷
 
 ╭════〘卐 AJUSTES EN CHATS/GRUPOS 卐〙════⊷❍
-│ _Puedes mejorar tu grupo con 𝖡𝗋𝗈𝗅𝗒 bot_
+│ _Puedes mejorar tu grupo con Katashi bot_
 ┃☭│ _${usedPrefix}on *:* off *bienvenida | welcome*_
 ┃☭│ _${usedPrefix}on *:* off *avisos | detect*_
 ┃☭│ _${usedPrefix}on *:* off *autonivel | autolevelup*_
@@ -264,7 +261,6 @@ ${readMore}
 ╭════〘卐 _DESCARGAS_ 卐〙════⊷❍
 │   │
 ┃☭│ _${usedPrefix}imagen | image *texto*_
-┃☭│ _${usedPrefix}dgdrive *link*_
 ┃☭│ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃☭│ _${usedPrefix}wallpaper|wp *texto*_
 ┃☭│ _${usedPrefix}play | play2 *texto o link*_
@@ -296,7 +292,7 @@ ${readMore}
 
 ╭═══〘卐 _Chat Anonimo_ 卐〙═══⊷❍
 ┃ _podras enviar mensajes a otra
-┃ _persona usando a Broly bot_
+┃ _persona usando a Katashi bot_
 ┃
 ┃☭│ _${usedPrefix}chatanonimo | anonimochat_
 ┃☭│ _${usedPrefix}anonimoch_
@@ -406,7 +402,6 @@ ${readMore}
 │
 ┃☭│ _${usedPrefix}chica_ 
 ┃☭│ _${usedPrefix}chico_
-┃☭│ _${usedPrefix}imgbroly_ 
 ┃☭│ _${usedPrefix}cristianoronaldo_
 ┃☭│ _${usedPrefix}messi_
 ┃☭│ _${usedPrefix}meme_
@@ -618,7 +613,7 @@ ${readMore}
 ┃☭│ _${usedPrefix}comunicargrupos *texto*_
 ┃☭│ _${usedPrefix}borrartmp | cleartmp_
 ┃☭│ _${usedPrefix}delexp *@tag*_
-┃☭│ _${usedPrefix}delgatacoins *@tag*_
+┃☭│ _${usedPrefix}delkatacoins *@tag*_
 ┃☭│ _${usedPrefix}deldiamantes *@tag*_
 ┃☭│ _${usedPrefix}reiniciar | restart_
 ┃☭│ _${usedPrefix}ctualizar | update_
@@ -627,11 +622,14 @@ ${readMore}
 ┃☭│ _${usedPrefix}listapremium | listprem_
 ┃☭│ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃☭│_${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ _${usedPrefix}añadirBrolycoins *@tag cantidad*_
+┃☭│ _${usedPrefix}añadirkatacoins *@tag cantidad*_
 ┃☭╰─────────────────❍
 ╰══════════════════⊷❍`.trim()
-await conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
-	
+const vi = ['https://telegra.ph/file/7f0318607ccfdb6bcb66d.mp4',
+'https://telegra.ph/file/a848eeb479e662f2e3fab.mp4',
+'https://telegra.ph/file/117391db9016a51f73618.mp4']
+await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
+
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
@@ -647,4 +645,4 @@ function clockString(ms) {
 let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
 let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
 let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
-return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
+return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}  
