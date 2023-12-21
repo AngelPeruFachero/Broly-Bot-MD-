@@ -628,7 +628,7 @@ ${readMore}
 const vi = ['https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
 'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg',
 'https://telegra.ph/file/f622b1e62dd1a00486efc.jpg']
-await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
+await conn.sendMessage(m.chat, { imagen: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender, global.conn.user.jid] }, { quoted: fkontak })
 
 } catch (e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
