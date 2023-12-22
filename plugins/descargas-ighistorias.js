@@ -15,7 +15,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: author,
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/KatashiFukushima/KatashiBot-MD`}}})
+sourceUrl: `https://github.com/AngelPeruFachero/Broly-Bot-MD`}}})
 }}
 handler.help = ['igstory <username>']
 handler.tags = ['downloader']
