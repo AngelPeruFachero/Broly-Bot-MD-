@@ -11,7 +11,7 @@ contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: nul
 title: wm, //Cambiado recientemente por corregir
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/KatashiFukushima/KatashiBot-MD`}}}) 
+sourceUrl: `https://github.com/AngelPeruFachero/Broly-Bot-MD`}}}) 
  try {
 const mediaa = await ytPlay(text);
 const audiocore = mediaa.result2?.[0]?.audio || mediaa.result2?.[1]?.audio || mediaa.result2?.[2]?.audio || null;
@@ -27,7 +27,7 @@ if (!aa_1) aa_1 = await conn.sendFile(m.chat, json.result.audio, 'error.mp3', nu
 if (command == 'play.2') {
 conn.reply(m.chat, `${eg}𝙀𝙎𝙋𝙀𝙍𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙀𝙇 𝙑𝙄𝘿𝙀𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍\n\n𝙒𝘼𝙄𝙏 𝘼 𝙈𝙊𝙈𝙀𝙉𝙏 𝙁𝙊𝙍 𝙏𝙃𝙀 𝙑𝙄𝘿𝙀𝙊 𝙋𝙇𝙀𝘼𝙎𝙀`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+title: '𝗕𝗿𝗼𝗹𝘆-𝘽𝙤𝙩-𝙈𝘿 | 𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
@@ -148,7 +148,7 @@ conn.sendFile(m.chat, json.result.url, 'error.mp3', null, m, false, { mimetype: 
 if (command == 'play.2') {
 conn.reply(m.chat, `${eg}𝙀𝙎𝙋𝙀𝙍𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊 𝙀𝙇 𝙑𝙄𝘿𝙀𝙊 𝙋𝙊𝙍 𝙁𝘼𝙑𝙊𝙍\n\n𝙒𝘼𝙄𝙏 𝘼 𝙈𝙊𝙈𝙀𝙉𝙏 𝙁𝙊𝙍 𝙏𝙃𝙀 𝙑𝙄𝘿𝙀𝙊 𝙋𝙇𝙀𝘼𝙎𝙀`, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+title: '𝗕𝗿𝗼𝗹𝘆-𝘽𝙤𝙩-𝙈𝘿 | 𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼',
 body: 'Super Bot WhatsApp',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
 sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
