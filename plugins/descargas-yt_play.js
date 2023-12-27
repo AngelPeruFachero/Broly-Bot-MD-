@@ -44,7 +44,7 @@ mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
 }}} , { quoted: m })
-if (command == 'play') {	
+if (command == 'play') {        
 try {
 let q = '128kbps'
 let v = yt_play[0].url
