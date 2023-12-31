@@ -18,7 +18,7 @@ say('Broly\nBot\nMD', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Project Author:\nAngelPeruFachero (@AngelPeruFachero)\n\nColaboradores:\neSoIz1 (iZi)\nJesus-Natsuki (Jesus-ofc)`, {
+say(`Project Author:\nAngelPeruFachero (@AngelPeruFachero)\n\nColaboradores:\neSoIz1 (iZi)\nJesus-Natsuki (Jesus-ofc)\ndiegojadibot (Diego-Ofc)`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']});
