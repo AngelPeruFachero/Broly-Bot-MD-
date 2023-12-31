@@ -82,30 +82,15 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
-┃☭│ 
-┃☭│ _𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘_
-┃☭│ 
-┃☭│
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ 𝙱𝚁𝙾𝙻𝚈 𝙱𝙾𝚃 × 𝙰𝚗𝚐𝚎𝚕𝙿𝚎𝚛𝚞𝙵𝚊𝚌𝚑𝚎𝚛𝚘
-┃☭│ 
-┃☭╰───────────────
-╰═════════════════⊷
-
-╭════〘卐 _INFO BROLY BOT_ 卐〙════⊷❍
+let menu = `*╔═══❖•ೋ°INFO°ೋ•❖═══╗*
 ┃
-┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
-┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
-┃☭│ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
-┃☭│ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
-┃☭│ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
-
+┃ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
+┃ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
+┃ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
+┃ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
+┃ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
+┃╰─────────────────❍
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 ╭════〘卐 _INFO DEL USER_ 卐〙════⊷❍
 
 ┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
