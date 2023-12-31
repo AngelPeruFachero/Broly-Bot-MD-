@@ -167,21 +167,21 @@ ${readMore}
 ┃ඬ⃟ ✨ _${usedPrefix}trivia 
 ┃ඬ⃟ ✨ _${usedPrefix}acertijo_
 ┃ඬ⃟ ✨ _${usedPrefix}palabra | ordenar_
-│☭│ _${usedPrefix}pelicula | adv_
-┃☭│ _${usedPrefix}mates | matemáticas | math_
-┃☭│ _${usedPrefix}ppt *piedra : papel : tijera*_
-┃☭│ _${usedPrefix}lanzar *cara* | *cruz*_
-┃☭│ _${usedPrefix}tictactoe | ttt *sala*_
-┃☭│ _${usedPrefix}deltictactoe | delttt_
-┃☭│ _${usedPrefix}topgays_
-┃☭│ _${usedPrefix}topotakus_
-┃☭│ _${usedPrefix}toppajer@s_
-┃☭│ _${usedPrefix}topput@s_ 
-┃☭│ _${usedPrefix}topintegrantes | topintegrante_
-┃☭│ _${usedPrefix}toplagrasa | topgrasa_
-┃☭│ _${usedPrefix}toppanafrescos | toppanafresco_
-┃☭│ _${usedPrefix}topshiposters | topshipost_
-┃☭│ _${usedPrefix}toplindos | toplind@s_ 
+┃ඬ⃟ ✨ _${usedPrefix}pelicula | adv_
+┃ඬ⃟ ✨ _${usedPrefix}mates | matemáticas | math_
+┃ඬ⃟ ✨ _${usedPrefix}ppt *piedra : papel : tijera*_
+┃ඬ⃟ ✨ _${usedPrefix}lanzar *cara* | *cruz*_
+┃ඬ⃟ ✨ _${usedPrefix}tictactoe | ttt *sala*_
+┃ඬ⃟ ✨ _${usedPrefix}deltictactoe | delttt_
+┃ඬ⃟ ✨ _${usedPrefix}topgays_
+┃ඬ⃟ ✨ _${usedPrefix}topotakus_
+┃ඬ⃟ ✨ _${usedPrefix}toppajer@s_
+┃ඬ⃟ ✨ _${usedPrefix}topput@s_ 
+┃ඬ⃟ ✨ _${usedPrefix}topintegrantes | topintegrante_
+┃ඬ⃟ ✨ _${usedPrefix}toplagrasa | topgrasa_
+┃ඬ⃟ ✨ _${usedPrefix}toppanafrescos | toppanafresco_
+┃ඬ⃟ ✨ _${usedPrefix}topshiposters | topshipost_
+┃ඬ⃟ ✨ _${usedPrefix}toplindos | toplind@s_ 
 ┃☭│ _${usedPrefix}topfamosos | topfamos@s_
 ┃☭│ _${usedPrefix}topparejas | top5parejas_ 
 ┃☭│ _${usedPrefix}gay | gay *@tag*_ 
