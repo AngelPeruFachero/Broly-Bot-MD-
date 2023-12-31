@@ -85,7 +85,7 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 let menu = `*╔═══❖•ೋ°°ೋ•❖═══╗*
 ┃ඬ⃟ 🌵 *Creador:* @51982110760
 ┃ඬ⃟ 🌵 *Colaborador:* @573013114854
-┃ඬ⃟ 🌵 *Bot Oficial:* @+591 76151236
+┃ඬ⃟ 🌵 *Bot Oficial:* @+59176151236
 ┃ඬ⃟ 🌵 *Activo: ${uptime}
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
