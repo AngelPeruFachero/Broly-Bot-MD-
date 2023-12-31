@@ -162,11 +162,11 @@ ${readMore}
 ┃❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
-╭════〘卐 _ENTRETENIMIENTO_ 卐〙════⊷❍
+*╔═══❖°ENTRETENIMIENTO•❖═══╗*
 │
-│☭│ _${usedPrefix}trivia 
-│☭│ _${usedPrefix}acertijo_
-│☭│ _${usedPrefix}palabra | ordenar_
+┃ඬ⃟ ✨ _${usedPrefix}trivia 
+┃ඬ⃟ ✨ _${usedPrefix}acertijo_
+┃ඬ⃟ ✨ _${usedPrefix}palabra | ordenar_
 │☭│ _${usedPrefix}pelicula | adv_
 ┃☭│ _${usedPrefix}mates | matemáticas | math_
 ┃☭│ _${usedPrefix}ppt *piedra : papel : tijera*_
