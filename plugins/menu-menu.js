@@ -82,14 +82,22 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `*╔═══❖•ೋ°INFO°ೋ•❖═══╗*
+let menu = `*╔═══❖•ೋ°°ೋ•❖═══╗*
+┃ඬ⃟ ✨ *Creador:*
+┃ඬ⃟ ✨ *Colaborador:* @573013114854
+┃ඬ⃟ ✨ *Bot Oficial:* @
+┃ඬ⃟ ✨
+┃ඬ⃟ ✨
+*╚═══❖•ೋ° °ೋ•❖═══╝*
+
+*╔═══❖•ೋ°INFO°ೋ•❖═══╗*
 ┃
 ┃ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
 ┃ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
 ┃ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ┃ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃╰─────────────────❍
+┃❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 ╭════〘卐 _INFO DEL USER_ 卐〙════⊷❍
 
