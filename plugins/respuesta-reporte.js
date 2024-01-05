@@ -25,7 +25,7 @@ async function handler(m, { conn, command, text }) {
             conn.sendPresenceUpdate('composing', m.chat);
         }
     }
-    //await conn.reply('972529277026@s.whatsapp.net', txt.trim(), m)
+    //await conn.reply('573013114854@s.whatsapp.net', txt.trim(), m)
     const quote = {
   key: {
     fromMe: false,
