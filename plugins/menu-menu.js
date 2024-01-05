@@ -82,17 +82,17 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _Broly Bot MD_ 卐〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
-┃☭│ _ɪᴢɪ_ 𝅙
-┃☭│ シWɪʟsᴏɴシ︎
+┃☭│ _AngelOficicial 🥷🏻_
+┃☭│ _DiegoOficial_ 𝅙
+┃☭│ シBrolyOficialシ︎
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│Sakurita-MD
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
