@@ -82,32 +82,24 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `╭═══〘卐 _𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_ 卐〙═══⊷❍
-┃☭╭──────────────
-┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
-┃☭│ 
-┃☭│ _AngelOficicial 🥷🏻_
-┃☭│ _DiegoOficial_ 𝅙
-┃☭│ シBrolyOficialシ︎
-┃☭│
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│Sakurita-MD
-┃☭│ 
-┃☭╰───────────────
-╰═════════════════⊷
+let menu = `*╔═══❖•ೋ°_𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_°ೋ•❖═══╗*
+*╔═══❖•ೋ°°ೋ•❖═══╗*
+┃ඬ⃟ 🌵 *Creador:* @⁨Angel⁩
+┃ඬ⃟ 🌵 *Colaborador:* @573013114854
+┃ඬ⃟ 🌵 *Bot Oficial:* @+59176151236
+┃ඬ⃟ 🌵 *Activo: 00:36:29
+*╚═══❖•ೋ° °ೋ•❖═══╝*
 
-╭════〘卐 _𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓_ 卐〙════⊷❍
+*╔═══❖•ೋ° _𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓_ °ೋ•❖═══╗*
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
 ┃☭│ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
 ┃☭│ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ┃☭│ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+*╚═══❖•ೋ°°ೋ•❖═══╝*
 
-╭════〘卐 _𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ 卐〙════⊷❍
+*╔═══❖•ೋ° _𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ °ೋ•❖═══╗*
 
 ┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
 ┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
@@ -117,17 +109,15 @@ let menu = `╭═══〘卐 _𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_ 卐�
 ┃☭│ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
 ┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
 ┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-┃☭╰─────────────────❍
-╰══════════════════⊷❍
+*╚═══❖•ೋ°°ೋ•❖═══╝*
 
-╭═══〘卐 _𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ 卐〙═══⊷❍
+*╔═══❖•ೋ° _𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ °ೋ•❖═══╗*
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
 ┃☭│ _BrolyCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
-┃☭╰───────────────
-╰═════════════════⊷
+*╚═══❖•ೋ°      °ೋ•❖═══╝*
 
 ${readMore}
 
