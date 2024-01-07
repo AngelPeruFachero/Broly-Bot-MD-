@@ -82,24 +82,26 @@ months: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto
 lugarFecha.locale('es', formatoFecha)
 const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A').replace(/^\w/, (c) => c.toUpperCase())
 
-let menu = `*╔═══❖•ೋ°_𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_°ೋ•❖═══╗*
+let menu = `*╔═══❖•ೋ𝐌𝐄𝐍𝐔-𝐁𝐑𝐎𝐋𝐘°ೋ•❖═══╗*
 *╔═══❖•ೋ°°ೋ•❖═══╗*
+┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 ┃ඬ⃟ 🌵 *Creador:* @⁨Angel⁩
 ┃ඬ⃟ 🌵 *Colaborador:* @573013114854
 ┃ඬ⃟ 🌵 *Bot Oficial:* @+59176151236
 ┃ඬ⃟ 🌵 *Activo: 00:36:29
+┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
-*╔═══❖•ೋ° _𝐈𝐍𝐅𝐎 𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓_ °ೋ•❖═══╗*
+*╔═══❖•ೋ°𝐁𝐑𝐎𝐋𝐘-𝐈𝐍𝐅𝐎°ೋ•❖═══╗*
 ┃
 ┃☭│ ᩭ✎ _Registrados »_ ${rtotalreg}/${totalreg}
 ┃☭│ ᩭ✎ _${lenguajeGB['smsUptime']()}_ ➣ _${uptime}_ 
 ┃☭│ ᩭ✎ _${lenguajeGB['smsVersion']()}_ ➢ _${vs}_
 ┃☭│ ᩭ✎ _${lenguajeGB['smsMode']()} ➣_ _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ┃☭│ ᩭ✎ _${lenguajeGB['smsBanChats']()}_ ➣ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
-*╚═══❖•ೋ°°ೋ•❖═══╝*
+*╚═══❖•ೋ°        °ೋ•❖═══╝*
 
-*╔═══❖•ೋ° _𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ °ೋ•❖═══╗*
+*╔═══❖•ೋ°𝐈𝐍𝐅𝐎-𝐔𝐒𝐄𝐑°ೋ•❖═══╗*
 
 ┃☭│ _Tipo de registro »_ ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
 ┃☭│ _Estado »_ ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
@@ -109,15 +111,15 @@ let menu = `*╔═══❖•ೋ°_𝐁𝐑𝐎𝐋𝐘 𝐁𝐎𝐓 𝐌𝐃_
 ┃☭│ _${lenguajeGB['smsBotonM6']().charAt(0).toUpperCase() + lenguajeGB['smsBotonM6']().slice(1).toLowerCase()} »_ ${emoji} || ${user.exp - min}/${xp}
 ┃☭│ _${lenguajeGB['smsPareja']()} ${pareja ? `\n*»_ ${name} 💕 ${conn.getName(pareja)}` : `*🛐 ${lenguajeGB['smsResultPareja']()}*_`}
 ┃☭│ _Pasatiempo(s) 🍁 ${user.pasatiempo === 0 ? '*Sin Registro*_' : user.pasatiempo + '_'}
-*╚═══❖•ೋ°°ೋ•❖═══╝*
+*╚═══❖•ೋ°      °ೋ•❖═══╝*
 
-*╔═══❖•ೋ° _𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 𝐃𝐄𝐋 𝐔𝐒𝐔𝐀𝐑𝐈𝐎_ °ೋ•❖═══╗*
+*╔═══❖•ೋ°𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒-𝐔𝐒𝐄𝐑°ೋ•❖═══╗*
 ┃☭╭──────────────
 ┃☭│ _Experiencia ➟_ ${exp} ×͜×
 ┃☭│ _Diamantes ➟_ ${limit} 💎
 ┃☭│ _BrolyCoins ➟_ ${money} ⫹⫺
 ┃☭│ _Tokens ➟_ ${joincount} ✧
-*╚═══❖•ೋ°      °ೋ•❖═══╝*
+*╚═══❖•ೋ°          °ೋ•❖═══╝*
 
 ${readMore}
 
