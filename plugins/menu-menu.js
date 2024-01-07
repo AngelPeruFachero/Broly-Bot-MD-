@@ -88,7 +88,7 @@ let menu = `*╔═══❖•ೋ𝐌𝐄𝐍𝐔-𝐁𝐑𝐎𝐋𝐘°ೋ•�
 ┃ඬ⃟ 🌵 *Creador:* @⁨Angel⁩
 ┃ඬ⃟ 🌵 *Colaborador:* @573013114854
 ┃ඬ⃟ 🌵 *Bot Oficial:* @+59176151236
-┃ඬ⃟ 🌵 *Activo: 00:36:29
+┃ඬ⃟ 🌵 *Activo: ${global.packname} ${uptime} 
 ┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ° °ೋ•❖═══╝*
 
