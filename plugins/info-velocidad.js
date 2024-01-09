@@ -59,24 +59,24 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 _*PRUEBA DE VELOCIDAD*_ \n_*🚀SPEED TEST*_`, fkontak,  m)
+await conn.reply(m.chat, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak,  m)
 //await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 let neww = performance.now()
 let speed = neww - old
-let caption = `${htki} *VELOCIDAD: SPEED* ${htka}
+let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀𝘿 ${htka}*
 
-🌐 _*${Math.round(neww - old)}* ms_
-🌐 _*${speed}* ms_
+🚄 *${Math.round(neww - old)}* ms
+🚄 *${speed}* ms
 
-*${htjava} TIEMPO DE EJECUCIÓN : RUNTIME* 
+*${htjava}* 𝙏𝙄𝙀𝙈𝙋𝙊 𝘿𝙀 𝙀𝙅𝙀𝘾𝙐𝘾𝙄𝙊𝙉 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
-🔢 *${groupsIn.length}* \`\`\`Grupales : Groups\`\`\`
-📶 *${groupsIn.length}* \`\`\`Grupos Unidos : Join Groups\`\`\`
-🚮 *${groupsIn.length - groupsIn.length}* \`\`\`Grupos Restantes : Groups Left\`\`\`
-📲 *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
-❇️ *${chats.length}* \`\`\`Total Chats\`\`\`
+• *${groupsIn.length}* \`\`\`Grupales : Groups\`\`\`
+• *${groupsIn.length}* \`\`\`Grupos Unidos : Join Groups\`\`\`
+• *${groupsIn.length - groupsIn.length}* \`\`\`Grupos Restantes : Groups Left\`\`\`
+• *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
+• *${chats.length}* \`\`\`Total Chats\`\`\`
 
 *${htjava} S E R V I D O R : S E R V E R*
 *🟢 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
