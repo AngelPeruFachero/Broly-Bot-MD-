@@ -1,42 +1,36 @@
-let media = './media/menus/Menuvid3.mp4'
+let media = './Menu7.jpg'
 let handler = async (m, { conn, command }) => {
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
-let str = `💕 𝘽𝙄𝙀𝙉𝙑𝙀𝙉𝙄𝘿𝙊(𝘼) 𝘼 𝙇𝙊𝙎 𝙂𝙍𝙐𝙋𝙊𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎
+let str = `🪁Grupos Del Bot BrolyBot-MD :D🌻
 
-💞 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙏𝙃𝙀 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝙂𝙍𝙊𝙐𝙋𝙎
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙏𝙚 𝙞𝙣𝙫𝙞𝙩𝙤 𝙖 𝙦𝙪𝙚 𝙩𝙚 𝙪𝙣𝙖𝙨 𝙖 𝙡𝙖 𝘾𝙤𝙢𝙪𝙣𝙞𝙙𝙖𝙙 𝗕𝗿𝗼𝗹𝘆-𝘽𝙤𝙩. ✨ 𝙏𝙚𝙣 𝙪𝙣 𝙗𝙪𝙚𝙣 𝙢𝙤𝙢𝙚𝙣𝙩𝙤 𝙚 𝙞𝙣𝙩𝙚𝙧𝙖𝙘𝙘𝙞𝙤𝙣𝙖 𝙘𝙤𝙣 𝙉𝙤𝙨𝙤𝙩𝙧𝙤𝙨. 👻
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𓃠 *Versión de ${gt}*
-➥ ${vs}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ 𝙂𝙍𝙐𝙋𝙊𝙎 𝙊𝙁𝙄𝘾𝙄𝘼𝙇𝙀𝙎 ${gt}
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✨ *Informate de las Novedades!!!*
-canal de BrolyBot 🥷🏻 *${nna}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
- *${nna2}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-Broly-Bot-MD (OFC)*${nn}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-** *${nnn}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-** *${nnnt}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-*${nnntt}*\n
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-𝙰𝚗𝚎𝚡𝚊𝚍𝚘𝚜 𝚍𝚎𝚕 𝚒𝚗𝚏𝚒𝚎𝚛𝚗𝚘 *${nnnttt}*\n
+_GRUPO l BROLY_
+https://chat.whatsapp.com/JUFI96ESVoYLEBmImN28o6
 
-*Por favor, no ingresar con números de Bots, y mantener el respeto.*\n
-*Please, do not enter with Bot numbers, and maintain respect.*`
+_GRUPO ll BROLY_
+https://chat.whatsapp.com/EcMl1FK9sgx8tnhE91cTmF
+
+_GRUPO lll BROLY_
+https://chat.whatsapp.com/JUFI96ESVoYLEBmImN28o6
+
+_GRUPO STAFF BROLY_
+https://chat.whatsapp.com/CtuZulsXYaf25B6D8OLBgU
+
+_CANAL BROLY_
+https://whatsapp.com/channel/0029Va98AwkISTkJMjfZtZ1T
+
+_CANAL SAKURABOT_
+https://whatsapp.com/channel/0029VaHYnwaKQuJIlTFuS22l
+
+_CANAL SAKURABOT 2_
+https://whatsapp.com/channel/0029VaIg4lxInlqUNkN7A53w`
 await conn.sendFile(m.chat, media, 'gata.mp4', str, fkontak)}
-/*conn.sendHydrated(m.chat, str, `𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n${asistencia}\n\n` + wm, media, 'https://github.com/GataNina-Li/GataBot-MD', '𝗕𝗿𝗼𝗹𝘆-𝘽𝙤𝙩-𝙈𝘿', null, null, [
-['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
+/*conn.sendHydrated(m.chat, str, `𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼\n\n\n` + wm, media, 'https://github.com/diegojadibot/SakuraBotLite-MD', 'SakuraBotLite-MD', null, null, [
+['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentassb'],
 ['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar'],
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
 ], m,)}*/
 
-handler.command = /^linkgc|grupos|gruposBrolybot|gatabotgrupos|gruposBrolybot|groupofc|gruposbb|grupokb|groupkb$/i
+handler.command = /^linkgc|grupos|gruposbrolyt|sakurabotgrupos|gruposdebrolybot|groupofc|grupossb|gruposb|groupsb$/i
 handler.exp = 33
 
 export default handler
