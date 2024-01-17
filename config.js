@@ -96,7 +96,7 @@ import { watchFile, unwatchFile } from "fs"
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 global.nnnttt = 'TEXTO'
 global.official = [ // Agregate si eres Owner
-["51982110760", 'Angel ofc 💻', 1], 
+["573013114854", 'Diego Ofc 💻', 1], 
 ["51982110760", 'Broly Two', 1]]
 
 global.mail = '' //agrega tú correo
@@ -105,7 +105,7 @@ global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasa
 global.country = '' //agrega tú país ejemplo: 🇵🇪
 
 global.packname = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
-global.author = "✥𝑨𝒏𝒈𝒆𝒍𝑷𝒆𝒓𝒖𝑭𝒂𝒄𝒉𝒆𝒓𝒐✥"
+global.author = "✥𝑨𝒏𝒈𝒆𝒍✥"
 
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
