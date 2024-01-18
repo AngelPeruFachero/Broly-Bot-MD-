@@ -57,7 +57,7 @@ let old = performance.now()
 
 let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃➥ *CREADOR | CREATOR*
-┃ღ *AngelPeruFachero*
+┃ღ *DIEGO*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
@@ -85,9 +85,6 @@ let info = `╭━━━━[ ${gt} ]━━━━━⬣
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *VELOCIDAD | SPEED*
 ┃ღ  *${speed}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
-┃ღ *${totaljadibot.length}*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
 ┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
@@ -101,7 +98,7 @@ await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 ╭━━━━[ ${gt} ]━━━━━⬣
 ┃
 ┃➥ *CREADOR | CREATOR*
-┃ღ *𝗔𝗻𝗴𝗲𝗹𝗣𝗲𝗿𝘂𝗙𝗮𝗰𝗵𝗲𝗿𝗼*
+┃ღ *Diego*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *CONTACTO | CONTACT* 
 ┃ღ *${ig}*
@@ -132,9 +129,6 @@ await conn.sendFile(m.chat, pp, 'gata.mp4', info, fkontak)
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *BOT SECUNDARIOS ACTIVOS | ACTIVE SECONDARY BACKS*
 ┃ღ *${totaljadibot.length}*
-┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-┃➥ *BATERIA | DRUMS*
-┃ღ *${conn.battery ? `${conn.battery.value}%* *${conn.battery.live ? '🔌 Cargando...*' : '⚡ Desconectado*'}` : 'Desconocido*'}
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃➥ *AUTOREAD*
 ┃ღ ${autoread ? '*Activado ✔*' : '*Desactivado ✘*'}
