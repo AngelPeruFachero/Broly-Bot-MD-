@@ -167,7 +167,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['KatashiBot-MD', 'Edge', '2.0.0'] : methodCodeQR ? ['KatashiBot-MD', 'Edge', '2.0.0'] : ['Chrome (Linux)', '', ''],
+browser: opcion == '1' ? ['DiegoOficial', 'Edge', '2.0.0'] : methodCodeQR ? ['KatashiBot-MD', 'Edge', '2.0.0'] : ['DiegoOficial', '', ''],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -435,14 +435,14 @@ try {
 const listaDirectorios = readdirSync('./KatashiJadiBot/');
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
-if (statSync(`./KatashiJadiBot/${directorio}`).isDirectory()) {
+if (statSync(`./sessions/${directorio}`).isDirectory()) {
 const DSBPreKeys = readdirSync(`./KatashiJadiBot/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys];
 DSBPreKeys.forEach(fileInDir => {
 if (fileInDir !== 'creds.json') {
-unlinkSync(`./KatashiJadiBot/${directorio}/${fileInDir}`)
+unlinkSync(`./sessins/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
@@ -454,7 +454,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 function purgeOldFiles() {
-const directories = ['./KatashiBotSession/', './KatashiJadiBot/']
+const directories = ['.sessions/', './KatashiJadiBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
