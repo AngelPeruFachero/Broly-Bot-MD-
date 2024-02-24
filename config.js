@@ -7,9 +7,8 @@ import { watchFile, unwatchFile } from "fs"
  import axios from "axios" 
  import moment from "moment-timezone" 
  import { en, es, id, ar, pt, fr, hi } from "./lib/idiomas/total-idiomas.js" 
-  
- //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰   
-  
+     
+ //Numeros De Los Propietarios 
  global.owner = [  
  ["51967278040", 'Angel Creador', true],    
  ["573013482814", 'Diego Owner', true]]
@@ -21,23 +20,14 @@ import { watchFile, unwatchFile } from "fs"
  global.Key360 = ["964f-0c75-7afc"] 
   
   
- //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰  
- //Agrega el Idioma que quieres que tenga BrolyBot
- //Add the language you want GataBot-MD to have 
- //  es = Español         id = Bahasa Indonesia 
- //  en = English         pt = Português  
- //  ar = عرب             hi = Hindi Language 
+ global.lenguajeGB = es //lenguje de brolybot-md 
   
- global.lenguajeGB = es //Idioma de BrolyBot, Ejemplo: es | en | pt... 
-  
- //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ 
-  
+ 
  global.openai_key = 'sk-0' 
- /* Consigue tu ApiKey en este enlace: https://platform.openai.com/account/api-keys */ 
+ 
   
  global.openai_org_id = 'org-3' 
- /* Consigue tu ID de organizacion en este enlace: https://platform.openai.com/account/org-settings */ 
-  
+ 
  global.keysZens = ["LuOlangNgentot", "c2459db922", "37CC845916", "6fb0eff124", "hdiiofficial", "fiktod", "BF39D349845E", "675e34de8a", "0b917b905e6f"] 
  global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())] 
  global.keysxteammm = ["29d4b59a4aa687ca", "5LTV57azwaid7dXfz5fzJu", "cb15ed422c71a2fb", "5bd33b276d41d6b4", "HIRO", "kurrxd09", "ebb6251cc00f9c63"] 
@@ -47,7 +37,8 @@ import { watchFile, unwatchFile } from "fs"
  global.lolkeysapi = "GataDios" 
  global.itsrose = ["4b146102c4d500809da9d1ff"] 
  global.baileys = "@whiskeysockets/baileys" 
-  
+ 
+//apis 
  global.APIs = {  
    xteam: 'https://api.xteam.xyz', 
    dzx: 'https://api.dhamzxploit.my.id', 
@@ -87,7 +78,7 @@ import { watchFile, unwatchFile } from "fs"
  global.axios = axios 
  global.moment = moment
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
+
 global.nnnttt = 'TEXTO'
 global.official = [ // Agregate si eres Owner
 ["573013482814", 'Diego Ofc 💻', 1], 
@@ -98,14 +89,16 @@ global.desc = '' //agrega una descripción corta
 global.desc2 = '' //agrega una descripción larga (Solo se aplicará si su whasapp no tiene descripción)
 global.country = '' //agrega tú país ejemplo: 🇵🇪
 
+//nombres
 global.packname = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
 global.author = "✥𝑨𝒏𝒈𝒆𝒍✥"
 
-//⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
-global.vs = "1.4.9"
-global.vsJB = "2.5 (Beta)"
+//versión
+global.vs = "0.2.3"
+global.vsJB = "1.0 (Beta)"
 
+//enlaces
 global.gt = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
 global.yt = "https://youtube.com/@AngelPeruFachero"
 global.yt2 = "https://www.youtube.com/shorts/ZLJYDUM6vSY"
@@ -123,11 +116,8 @@ global.nnnt =
 global.paypal = 'https://paypal.me/BrolyF'
 global.asistencia = 'Wa.me/51982110760' //Dudas? escríbeme...
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-
-//⊱ ━━━━━━━━━━━━━.⋅ Datos ⋅.━━━━━━━━━━━━━━ ⊰
-
+//resultados
 global.rg = '╰⊱✅⊱ *𝙍𝙀𝙎𝙐𝙇𝙏𝘼𝘿𝙊 | 𝙍𝙀𝙎𝙐𝙇𝙏* ⊱✅⊱╮\n\n'
 global.resultado = rg
 
@@ -149,12 +139,8 @@ global.envio = eeg
 global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎𝙎* ⊱💚⊱╮\n\n'
 global.exito = eg
 
-//𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-
-//⊱ ━━━━━.⋅ Información | Information ⋅.━━━━ ⊰
-
+//cargando
 global.wm = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆ : ✥𝑨𝒏𝒈𝒆𝒍𝑷𝒆𝒓𝒖𝑭𝒂𝒄𝒉𝒆𝒓𝒐✥"
 global.igfg = "☆𝔹𝕣𝕠𝕝𝕪-𝔹𝕠𝕥☆"
 global.wait = "*⌛ _Cargando | Charging..._ ▬▭▭▭▭▭▭*"
@@ -164,11 +150,9 @@ global.waitttt = "*⌛ _Cargando | Charging..._ ▬▬▬▬▬▬▭*"
 global.nomorown = "51948273587"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"];
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
 
-//⊱ ━━━━━.⋅ IMG ⋅.━━━━ ⊰
-
+//imagenes
 global.imagen1 = fs.readFileSync("./media/menus/Menu1.jpg")
 global.imagen2 = fs.readFileSync("./media/menus/Menu2.jpg")
 global.imagen3 = fs.readFileSync("./media/menus/Menu3.jpg")
@@ -183,11 +167,8 @@ global.imagen11 = fs.readFileSync("./media/menus/Menu11.jpg")
 /*global.imagen12 = fs.readFileSync("./media/menus/img11.jpg")
 global.imagen13 = fs.readFileSync("./media/menus/img12.jpg")*/
 
-//━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-
-//━━━━━━━━━━━━━━ img ━━━━━━━━━
-
+//imagenes
 global.img = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
 global.img2 = 'https://telegra.ph/file/0e0d7e656359d160eb4cf.jpg'
 
@@ -220,10 +201,7 @@ global.gataMenu = [img, img2, img6, img7, img8, img9, img13, img14, img15, img17
 //global.gataVidMenu = ['./media/menus/Menuvid1.mp4', './media/menus/Menuvid2.mp4', './media/menus/Menuvid3.mp4']
 global.gataImg = [imagen1, imagen2, imagen3, imagen4, imagen5, imagen6, imagen7, imagen8, imagen9, imagen10, imagen11]
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
 
-
-//⊱ ━━━━━.⋅ RPG ⋅.━━━━ ⊰
 
 global.flaaa = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
@@ -266,7 +244,7 @@ global.fgif = {
                               }
                              };
 
-//━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ
+
 
 
 global.multiplier = 60 // Cuanto más alto, más difícil subir de nivel | The higher, The harder levelup 
