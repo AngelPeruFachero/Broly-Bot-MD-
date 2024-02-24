@@ -328,4 +328,4 @@ _____░▒▓██\n\e[0m"
     
 sleep 15 && pkill mpv > /dev/null 2>&1 && sleep 2 && rm -f /data/data/com.termux/files/home/"$random_mp3" &
 echo -e "\033[01;32m\033[01mIniciando 𝖡𝗋𝗈𝗅𝗒-Bot-MD!!\nStarting 𝖡𝗋𝗈𝗅𝗒-Bot-MD!!\n\033[0m"
-npm start
+npm start#
