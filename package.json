@@ -1,51 +1,54 @@
 {
 "name": "Broly-Bot-MD",
-"version": "1.3.0", 
+"version": "1.7.0", 
 "description": "Super Bot WhatsApp",
 "main": "index.js",
 "type": "module",
-    
+
 "directories": {
 "lib": "lib",
 "src": "src",
 "plugins": "plugins" },
-    
+
 "scripts": {
-"start": "node --no-warnings index.js",
+"start": "node index.js",
+"qr": "node index.js qr",
+"code": "node index.js code",
 "test": "node test.js",
 "test2": "nodemon index.js" },
-    
+
 "homepage": "https://github.com/AngelPeruFachero/Broly-Bot-MD",
 "author": {
-"name": "AngelPeruFachero" }, 
-    
+"name": "AngelPeruFachero" },
+
 "repository": {
 "type": "git",
- "url": "git+https://github.com/AngelPeruFachero/Broly-Bot-MD.git" },
- 
+"url": "git+https://github.com/AngelPeruFachero/Broly-Bot-MD.git" },
+
 "bugs": {
-"url": "https://github.com/AngelPeruFachero/Broly--MD/issues" },
+"url": "https://github.com/AngelPeruFachero/Broly-Bot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "^7.5.0",
+"@whiskeysockets/baileys": "^6.6.0",
 "@adiwajshing/keyed-db": "^0.2.4",
-"@bochilteam/scraper": "^0.2.4",
-"@brandond/findthelyrics": "^1.0.5",
-"@green-code/music-track-data": "^1.0.3",
-"@shineiichijo/marika": "^9.0.6",
-"@vitalets/google-translate-api": "^2.0.0",
+"@bochilteam/scraper": "^4.2.4",
+"@brandond/findthelyrics": "^2.0.5",
+"@green-code/music-track-data": "^2.0.3",
+"@shineiichijo/marika": "^2.0.6",
+"@vitalets/google-translate-api": "^8.0.0",
 "@xct007/frieren-scraper": "^0.0.2",
-"acrcloud": "^0.4.0",
-"api-dylux": "^0.5.6",
-"aptoide-scraper": "^2.0.1",
-"awesome-phonenumber": "^6.68.0",
+"acrcloud": "^1.4.0",
+"api-dylux": "^1.5.6",
+"aptoide-scraper": "^1.0.1",
+"awesome-phonenumber": "^2.68.0",
 "axios": "^1.1.3",
 "mathjs": "^11.3.0",
 "body-parser": "^1.20.2",
-"cfonts": "^2.10.0",
+"cfonts": "^3.2.0",
 "chalk": "^5.0.0",
 "cheerio": "^1.0.0-rc.10",
-"colors": "1.4.0",
+"colors": "^1.4.0",
+"countries-and-timezones": "^3.6.0",
 "express": "^4.17.3",
 "fb-downloader-scrapper": "^1.0.1",
 "file-type": "^17.1.1",
@@ -60,6 +63,8 @@
 "link-preview-js": "^3.0.0",
 "lodash": "^4.17.21",
 "lowdb": "^3.0.0",
+"libphonenumber-js": "^1.10.55",
+"module-gatadios": "^1.0.5",
 "md5": "^2.3.0",
 "moment-timezone": "^0.5.34",
 "mongoose": "^6.3.3",
