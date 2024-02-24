@@ -85,9 +85,9 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 let menu = `*╔══❖•ೋ°MENÚ BOT OFICIALೋ•❖═══╗*
 ┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 ┃ඬ⃟ 🌵 *Creador:* @⁨Angel⁩
-┃ඬ⃟ 🌵 *Colaborador:* @573013114854
+┃ඬ⃟ 🌵 *Colaborador:* @573013482814
 ┃ඬ⃟ 🌵 *Bot Oficial:* @59176151236
-┃ඬ⃟ 🌵 *Activo: ${wm} ${uptime} 
+┃ඬ⃟ 🌵 *Activo: ${uptime} 
 ┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ°           °ೋ•❖═══╝*
 
@@ -632,7 +632,6 @@ console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗
 console.log(e)}}
 
 handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|all|allm|m|\?)$/i
-//handler.register = true
 export default handler
 
 const more = String.fromCharCode(8206)
