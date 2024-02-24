@@ -23,7 +23,7 @@
 <a href="https://github.com/AngelPeruFachero/Broly-Bot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/AngelPeruFachero/Broly-Bot-MD?label=Stars&color=yellow&style=flat-square"></a>
 </p>
 
-### Yo Angel me e retirado todo sobre el bot, el bot a dejado de funcionar por falta de mantenimiento, los colaboradores no an actualizado el bot!. poco a poco se actualizará y volverá el bot broly.
+> ### Yo Angel me retiro todo sobre el bot de whatsapp. les informo que el bot dejo funciones hace poco ya que por falta de mantenimiento a dejado de funcionar, le pedimos a los colaboradores que lo actualizen poco a poco. si el bot se actualiza volverá el bot gracias..
 
 <a href="https://instabio.cc/BrolyUwU">
 <img src="https://img.shields.io/badge/Redes_Sociales-000000%7D?style=for-the-badge&logo=biolink&logoColor=white">
