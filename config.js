@@ -10,16 +10,10 @@ import { watchFile, unwatchFile } from "fs"
   
  //⊱ ━━━━━.⋅ Añada los numeros a ser Propietario/a | Add the numbers to be Owner ⋅.━━━━ ⊰   
   
- global.owner = [ 
- ["59176151236", '☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆', true], 
- ["51982110760", '𝙊𝙬𝙣𝙚𝙧', true],  
- //["5217441745021"],  
- ["573013114854", true],  
- ["584166718372", true], 
- ["5492974081619"], 
- ["593968585383"]] 
+ global.owner = [  
+ ["51967278040", 'Angel Creador', true],    
+ ["573013482814", 'Diego Owner', true]]
   
- //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ 
   
  global.mods = [] 
  global.prems = ["528451003894"] 
@@ -28,13 +22,13 @@ import { watchFile, unwatchFile } from "fs"
   
   
  //⊱ ━━━━━.⋅ IDIOMA : LENGUAJE ⋅.━━━━ ⊰  
- //Agrega el Idioma que quieres que tenga GataBot-MD 
+ //Agrega el Idioma que quieres que tenga BrolyBot
  //Add the language you want GataBot-MD to have 
  //  es = Español         id = Bahasa Indonesia 
  //  en = English         pt = Português  
  //  ar = عرب             hi = Hindi Language 
   
- global.lenguajeGB = es //Idioma de GataBot, Ejemplo: es | en | pt... 
+ global.lenguajeGB = es //Idioma de BrolyBot, Ejemplo: es | en | pt... 
   
  //━━━━━━━━━━━━━━━━━━━━ ฅ^•ﻌ•^ฅ 
   
@@ -96,8 +90,8 @@ import { watchFile, unwatchFile } from "fs"
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 global.nnnttt = 'TEXTO'
 global.official = [ // Agregate si eres Owner
-["573013114854", 'Diego Ofc 💻', 1], 
-["51982110760", 'Broly Two', 1]]
+["573013482814", 'Diego Ofc 💻', 1], 
+["51967278040", 'Broly Two', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
