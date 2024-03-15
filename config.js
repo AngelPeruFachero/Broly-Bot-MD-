@@ -11,7 +11,7 @@ import { watchFile, unwatchFile } from "fs"
  //Numeros De Los Propietarios 
  global.owner = [  
  ["51967278040", 'Angel Creador', true],    
- ["573013482814", 'Diego Owner', true]]
+ ["573218138672", 'Diego Owner', true]]
   
   
  global.mods = [] 
@@ -20,8 +20,9 @@ import { watchFile, unwatchFile } from "fs"
  global.Key360 = ["964f-0c75-7afc"] 
   
   
- global.lenguajeGB = es //lenguje de brolybot-md 
-  
+ //global.lenguajeGB = es //lenguje de brolybot-md 
+
+ global.lenguajeGB = es
  
  global.openai_key = 'sk-0' 
  
