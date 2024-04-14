@@ -10,17 +10,14 @@ import { watchFile, unwatchFile } from "fs"
      
  //Numeros De Los Propietarios 
  global.owner = [  
- ["51967278040", 'Angel Creador', true],      ["51982110760", 'Angel Creador', true],  
- ["573218138672", 'Diego Owner', true]]
+['51967278040', '💚 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 💋', true],      ['51982110760', '💚 𝙰𝙽𝙶𝙴𝙻 💋', true],  
+['573012482597', '💚 𝙾𝚆𝙽𝙴𝚁 💋', true]]
   
   
  global.mods = [] 
  global.prems = ["528451003894"] 
  //key de violetics 
- global.Key360 = ["964f-0c75-7afc"] 
-  
-  
- //global.lenguajeGB = es //lenguje de brolybot-md 
+ global.Key360 = ["964f-0c75-7afc"]  
 
  global.lenguajeGB = es
  
@@ -85,8 +82,8 @@ var ase = new Date(); var hour = ase.getHours(); switch(hour){ case 0: hour = 'u
 
 global.nnnttt = 'TEXTO'
 global.official = [ // Agregate si eres Owner
-["573013482814", 'Diego Ofc 💻', 1], 
-["51967278040", 'Broly Two', 1]]
+["573013482814", '💚 𝙾𝚆𝙽𝙴𝚁 𝙾𝙵𝙲 💋', 1], 
+["51967278040", '💚 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 💋', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -100,7 +97,7 @@ global.author = "✥𝑨𝒏𝒈𝒆𝒍✥"
 
 //versión
 global.vs = "0.2.3"
-global.vsJB = "1.0 (Beta)"
+global.vsJB = "1.0 (Sub-Beta)"
 
 //enlaces
 global.gt = "☆𝑩𝒓𝒐𝒍𝒚-𝑩𝒐𝒕☆"
