@@ -86,7 +86,7 @@ let menu = `*╔══❖•ೋ°MENÚ BOT OFICIALೋ•❖═══╗*
 ┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 ┃ඬ⃟ 🌵 *Creador:* @⁨Angel⁩
 ┃ඬ⃟ 🌵 *Colaborador:* @573013482814
-┃ඬ⃟ 🌵 *Bot Oficial:* @59176151236
+┃ඬ⃟ 🌵 *Bot Oficial:* @51946038694
 ┃ඬ⃟ 🌵 *Activo: ${uptime} 
 ┃ඬ⃟ 🌵❖ ── ✦ ──『✙』── ✦ ── ❖
 *╚═══❖•ೋ°           °ೋ•❖═══╝*
