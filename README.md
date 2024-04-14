@@ -124,8 +124,8 @@ grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https:/
 
 
 ### ⚡ REPLIT - BROLY-BOT-MD
-[![blog](https://img.shields.io/badge/Replit-GataBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
-](https://youtu.be/pQYkq4xv37o)
+[![blog](https://img.shields.io/badge/Replit-Broly-BotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
+](no video)
 
 <a target="_blank" href="https://replit.com/github/AngelPeruFachero/Broly-Bot-MD"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a> <a href="https://replit.com/github/AngelPeruFachero/Broly-Bot-MD"> <img src="https://media0.giphy.com/media/lMwu8EJAnv9kmn51KQ/giphy.gif" height="29px"></a>
 
