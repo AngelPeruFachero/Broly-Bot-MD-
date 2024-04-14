@@ -147,11 +147,11 @@ let genText = `🌟 *SELECCIONA TU GÉNERO!!*
 2️⃣ ▸ _🚺 FEMENINO (Mujer)_
 3️⃣ ▸ _👤 OCULTAR GÉNERO (Omitir)_\n
 🌟 *PUEDE USAR EL EMOJI NUMÉRICO O TEXTO NUMÉRICO PARA ELEGIR SU GÉNERO EJEMPLO:*
-✓ \`\`\`${usedPrefix}genero 2️⃣\`\`\`
-✓ \`\`\`${usedPrefix}genero 2\`\`\``
+✓ \`\`\`${usedPrefix}genero 1⃣\`\`\`
+✓ \`\`\`${usedPrefix}genero 1\`\`\``
 if (!text) return conn.sendMessage(m.chat, { text: genText }, { quoted: fkontak })	
 function asignarGenero(text) {
-if (text == 0 && text > 3) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*"${text}" NO ES VÁLIDO PARA ELEGIR, RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU GÉNERO, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}genero 2️⃣\`\`\`\n✓ \`\`\`${usedPrefix}genero 2\`\`\``, fkontak, m) 
+if (text == 0 && text > 3) return conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*"${text}" NO ES VÁLIDO PARA ELEGIR, RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU GÉNERO, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}genero 1⃣\`\`\`\n✓ \`\`\`${usedPrefix}genero 1\`\`\``, fkontak, m) 
 switch (text) {
 case "1️⃣":
 case "1":
@@ -169,7 +169,7 @@ case "👤":
 genero = "Ocultado"
 break
 default:
-return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU GÉNERO, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}genero 2️⃣\`\`\`\n✓ \`\`\`${usedPrefix}genero 2\`\`\``, fkontak, m)
+return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU GÉNERO, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}genero 1⃣\`\`\`\n✓ \`\`\`${usedPrefix}genero 1\`\`\``, fkontak, m)
 }}
 asignarGenero(text)
 user.genero = genero
@@ -193,9 +193,9 @@ var numero = parseInt(text.replace(/[^\d]/g, ''))
 if (!isNaN(numero) && Number(numero) > 0 && Number(numero) <= generos.length) {
 return generos[numero - 1]
 } else if (!text) {
-return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU IDENTIDAD, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}identidad 2️⃣\`\`\`\n✓ \`\`\`${usedPrefix}identidad 2\`\`\``, fkontak, m)
+return conn.reply(m.chat, `${lenguajeGB['smsAvisoAG']()}*RECUERDE USAR EL EMOJI NUMÉRICO, EMOJI DE GÉNERO O TEXTO NUMÉRICO PARA SELECCIONAR SU IDENTIDAD, EJEMPLO*\n\n✓ \`\`\`${usedPrefix}identidad 1⃣\`\`\`\n✓ \`\`\`${usedPrefix}identidad 1\`\`\``, fkontak, m)
 }else{
-conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*ESTÁ ELECCIÓN "${numero}" NO FORMA PARTE DE LA LISTA DE IDENTIDAD, ELEGIR UNO DE LA LISTA POR FAVOR, EJEMPLO:*\n\n✓ \`\`\`${usedPrefix}identidad 2️⃣\`\`\`\n✓ \`\`\`${usedPrefix}identidad 2\`\`\``, fkontak, m)
+conn.reply(m.chat, `${lenguajeGB['smsAvisoFG']()}*ESTÁ ELECCIÓN "${numero}" NO FORMA PARTE DE LA LISTA DE IDENTIDAD, ELEGIR UNO DE LA LISTA POR FAVOR, EJEMPLO:*\n\n✓ \`\`\`${usedPrefix}identidad 1⃣\`\`\`\n✓ \`\`\`${usedPrefix}identidad 1\`\`\``, fkontak, m)
 }}
 let yyr = ''
 yyr += `*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•*
