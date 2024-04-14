@@ -20,7 +20,7 @@ conn.sendMessage(m.chat, { text: json.result }, { quoted: m })
 }
 handler.help = ['bardimg', 'geminiimg']
 handler.tags = ['herramientas']
-handler.command = /^(bardimg|bardimage|geminiimg|geminiimage|geminimg|geminimage)$/i
+handler.command = /^(broly|bardimage|geminiimg|geminiimage|geminimg|geminimage)$/i
 
 handler.limit = true
 
