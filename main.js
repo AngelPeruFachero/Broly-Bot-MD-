@@ -426,13 +426,13 @@ return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./KatashiBotSession/${files}`)
+unlinkSync(`./BrolyBotSession/${files}`)
 })
 } 
 
 function purgeSessionSB() {
 try {
-const listaDirectorios = readdirSync('./KatashiJadiBot/');
+const listaDirectorios = readdirSync('./BrolyJadiBot/');
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
 if (statSync(`./sessions/${directorio}`).isDirectory()) {
@@ -454,7 +454,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))
 }}
 
 function purgeOldFiles() {
-const directories = ['.sessions/', './KatashiJadiBot/']
+const directories = ['.sessions/', './BrolyJadiBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err
