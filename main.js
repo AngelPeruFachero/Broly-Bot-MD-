@@ -167,7 +167,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['DiegoOficial', 'Edge', '2.0.0'] : methodCodeQR ? ['DiegoOficial', 'Edge', '2.0.0'] : ['DiegoOficial', '', ''],
+browser: opcion == '1' ? ['AngelOficial', 'Edge', '2.0.0'] : methodCodeQR ? ['AngelOficial', 'Edge', '2.0.0'] : ['AngelOficial', '', ''],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
