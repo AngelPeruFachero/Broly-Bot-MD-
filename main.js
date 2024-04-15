@@ -104,7 +104,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `KatashiBotSession`
+global.authFile = `BrolyBotSession`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
