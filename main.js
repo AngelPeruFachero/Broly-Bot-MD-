@@ -436,7 +436,7 @@ const listaDirectorios = readdirSync('./BrolyJadiBot/');
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
 if (statSync(`./sessions/${directorio}`).isDirectory()) {
-const DSBPreKeys = readdirSync(`./KatashiJadiBot/${directorio}`).filter(fileInDir => {
+const DSBPreKeys = readdirSync(`./BrolyJadiBot/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys];
