@@ -12,7 +12,7 @@ await m.reply(`
 ${usedPrefix}buy *cantidad*
 ${usedPrefix}buyall *cantidad*
 
-*Compra diamantes con Katacoins*
+*Compra diamantes con brolycoins*
 ${usedPrefix}buy2 *cantidad*
 ${usedPrefix}buyall2 *cantidad*`)
 
